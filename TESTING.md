@@ -2,7 +2,9 @@
 
 ## Part 2 and Part 3 emblem update
 
-The replacement emblems were checked in the rebuilt standalone HTML in Chromium at 1440, 390, and 320 pixels wide, in both library cards and part dialogs. Both embedded PNGs loaded without external requests, horizontal overflow, or JavaScript errors. Desktop and phone screenshots were visually reviewed. The production build and all 10 model tests passed again. Native Opera remains untested in this environment.
+The replacement emblems now use transparent monochrome outline masks so their ink color, tilt, and sizing match the other seven parts. Their gemstone/scarf and cap/chain/star motifs are retained.
+
+The emblems were checked in the rebuilt standalone HTML in Chromium at 1440, 390, and 320 pixels wide, in both library cards and part dialogs. Both embedded PNG masks decoded and inherited the card ink color without external requests, horizontal overflow, or JavaScript errors. Desktop and phone screenshots were visually reviewed. The production build and all 10 model tests passed again. Native Opera remains untested in this environment.
 
 Before the emblem update, the production bundle passed **23 UI scenarios**, all **10 model tests**, and the original desktop/mobile browser smoke checks. No unexpected JavaScript exceptions occurred during the passing UI audit. The TypeScript check and Vite production build passed.
 

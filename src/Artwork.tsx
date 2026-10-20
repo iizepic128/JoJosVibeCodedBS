@@ -24,7 +24,7 @@ export function PartArtwork({ part, className = '' }: { part: Part; className?: 
     <div className="art-grid" /><span className="art-ghost">{String(part.id).padStart(2, '0')}</span>
     <span className="art-label">JOESTAR<br />ARCHIVES</span><span className="art-spark">✦</span>
     {logo
-      ? <img src={logo} className="part-emblem part-logo" alt="" aria-hidden="true" draggable={false} />
+      ? <span className="part-emblem part-logo" aria-hidden="true" style={{ maskImage: `url(${logo})`, WebkitMaskImage: `url(${logo})` }} />
       : <Emblem motif={part.motif} className="part-emblem" />}
     <span className="art-location">{part.setting}</span><span className="art-year">{part.era}</span>
   </div>;

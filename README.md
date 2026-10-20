@@ -1,6 +1,6 @@
 # JoJosVibeCodedBS — JoJo Journey
 
-A responsive, local-first tracker for the nine main parts of JoJo’s Bizarre Adventure. Built with React, TypeScript, and Vite, with original SVG illustrations, custom part emblems, and bundled fonts. Battle Tendency features the Red Stone of Aja and Hamon rays; Stardust Crusaders features a cap, chain, and Joestar star. Both emblems are bundled into the standalone HTML for offline use.
+A responsive, local-first tracker for the nine main parts of JoJo’s Bizarre Adventure. Built with React, TypeScript, and Vite, with original SVG illustrations, custom part emblems, and bundled fonts. Battle Tendency features the Red Stone of Aja and Hamon rays; Stardust Crusaders features a cap, chain, and Joestar star. Both emblems use thin monochrome outlines, inherit their card’s ink color, and share the other parts’ scale and tilt. They are bundled into the standalone HTML for offline use.
 
 ## Easiest preview: no setup
 
