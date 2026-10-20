@@ -1,6 +1,6 @@
 # JoJosVibeCodedBS — JoJo Journey
 
-A responsive, local-first tracker for the nine main parts of JoJo’s Bizarre Adventure. Built with React, TypeScript, and Vite, with original SVG illustrations, custom part emblems, and bundled fonts. Battle Tendency features the Red Stone of Aja and Hamon rays; Stardust Crusaders features a cap, chain, and Joestar star. Both emblems use thin monochrome outlines, inherit their card’s ink color, and share the other parts’ scale and tilt. They are bundled into the standalone HTML for offline use.
+A responsive, local-first tracker for the nine main parts of JoJo’s Bizarre Adventure. Built with React, TypeScript, and Vite, with original SVG illustrations, custom part emblems, and bundled fonts. Battle Tendency features a simplified Red Stone of Aja pendant based on the supplied reference, with a shield-shaped stone, central cross, suspension ring, and symmetrical side settings; Stardust Crusaders features a cap, chain, and Joestar star. Both emblems use thin monochrome outlines, inherit their card’s ink color, and share the other parts’ scale and tilt. They are bundled into the standalone HTML for offline use.
 
 ## Easiest preview: no setup
 
@@ -31,6 +31,7 @@ For development with automatic updates, run `npm run dev` after the first setup.
 ## Features
 
 - Nine illustrated part cards with independent anime and manga progress, quick logging, notes, favorites, and undo.
+- Manga completion weighted by estimated pages, including Steel Ball Run’s weekly-to-monthly chapter-length change and editable page totals per part.
 - A visual timeline showing story eras and publication order across the original and alternate continuities.
 - Overview totals, per-format completion, searching, status filters, and sorting by publication order or progress.
 - Adaptation coverage based on manga chapters covered by anime, independent of personal progress.
@@ -38,6 +39,16 @@ For development with automatic updates, run `npm run dev` after the first setup.
 - Editable counts and schedules, including pauses, delayed dates, and monthly day changes.
 - Local storage, JSON export/import with validation, and preservation of unreadable stored data.
 - Mobile navigation, keyboard-accessible dialogs, reduced-motion support, and no third-party runtime asset requests.
+
+## Manga progress by pages
+
+Continue logging completed chapters. The app estimates the pages read through that chapter and uses **sum of pages read / sum of pages available** for the overall manga percentage. Longer parts contribute more than shorter parts. Anime uses episodes watched / episodes available; All formats averages the anime and manga percentages equally. Per-part manga bars and progress sorting also use page weights.
+
+The current fallback model uses **20 pages per chapter for Parts 1–6**, **20 for Steel Ball Run chapters 1–23 and 40 from chapter 24 onward**, and **40 for JoJolion and The JOJOLands**. These are deliberately labeled rough estimates, not verified page counts. Individual chapters vary, including long opening chapters. Reference-site requests were blocked by this environment’s proxy, so no sourced chapter-by-chapter page dataset is claimed.
+
+In **Release catalog → Manga page totals**, enter the total pages for the currently released chapters in your edition. The app scales its chapter estimates to match that total while retaining SBR’s weekly/monthly distinction. Clearing a field restores the default model. Even with a real total entered, pages read are estimated between chapter boundaries because individual chapter lengths have not been supplied.
+
+Each custom total retains the chapter count it was entered against. Future scheduled chapters add pages using the same scale, so already-read pages do not increase automatically. Editing a page total recalibrates the estimate; it never changes your logged chapters. All overrides are included in backups, and older saves without page fields continue to work. Adaptation coverage remains chapter-based.
 
 ## Release schedules and source assumptions
 
@@ -56,7 +67,7 @@ npm test
 npm run build
 ```
 
-The model tests cover progress bounds, independent formats, Friday/monthly catch-up, idempotency, pauses, delays, short months, leap years, and backup validation.
+The 15 model tests cover progress bounds, independent formats, Friday/monthly catch-up, idempotency, pauses, delays, short months, leap years, backup validation, page-weighted totals, SBR’s chapter-23/24 transition, custom page totals, legacy saves, and stable reading progress after new releases.
 
 For browser checks, keep the dev server running and use an environment with Python Playwright and Chromium installed:
 
@@ -65,7 +76,7 @@ python tests/browser_smoke.py
 python tests/ui_audit.py
 ```
 
-The smoke checks cover editing, undo, notes, favorites, filtering, adaptation, persistence, date advancement, schedule pause/resume, backups, mobile layout, and corrupt storage recovery. The full UI audit adds 23 isolated scenarios covering every navigation route, all 45 part-opening controls, format-specific actions, sorting, all 27 catalog fields, keyboard focus and Escape handling, phone backup actions, empty/completed libraries, and storage-failure recovery. Each scenario uses a clean profile and a fixed clock. External reference links are tested with controlled destination responses; availability of the actual external services is not asserted.
+The smoke checks cover editing, undo, notes, favorites, filtering, adaptation, persistence, date advancement, schedule pause/resume, backups, mobile layout, and corrupt storage recovery. The full UI audit runs 25 isolated scenarios covering every navigation route, all 45 part-opening controls, format-specific actions, sorting, all 27 catalog fields, keyboard focus and Escape handling, phone backup actions, empty/completed libraries, storage-failure recovery, editable page totals, page-count backup data, monthly page growth, and phone page-total controls. Each scenario uses a clean profile and a fixed clock. External reference links are tested with controlled destination responses; availability of the actual external services is not asserted.
 
 To test a production preview on a different port, set `JOJO_TEST_URL`, for example `JOJO_TEST_URL=http://127.0.0.1:5175 python tests/ui_audit.py`.
 

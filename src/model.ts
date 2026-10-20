@@ -31,11 +31,15 @@ export interface Progress { anime: number; manga: number; favorite: boolean; not
 export interface Release { episodes: number; chapters: number; adapted: number }
 export interface Schedule { enabled: boolean; cadence: 'weekly' | 'monthly'; day: number; nextRelease: string }
 export type ScheduleKey = 'sbr' | 'jojolands';
+export interface MangaPageTotal { total: number; chapters: number }
 export interface State {
   version: 1;
   progress: Record<number, Progress>;
   releases: Record<number, Release>;
   schedules: Record<ScheduleKey, Schedule>;
+  // A user-entered total and its chapter baseline keep page weights stable
+  // when scheduled releases add chapters. Older saves omit this field.
+  mangaPages?: Record<number, MangaPageTotal>;
 }
 export type Medium = 'both' | 'anime' | 'manga';
 export const STORAGE_KEY = 'jojo-journey-v1';
@@ -48,6 +52,46 @@ export const progressFor = (state: State, id: number): Progress => state.progres
 export const releaseFor = (state: State, part: Part): Release => state.releases[part.id] ?? { episodes: part.episodes, chapters: part.chapters, adapted: part.adapted };
 export const clamp = (n: number, total: number) => Math.min(Math.max(0, Math.trunc(Number.isFinite(n) ? n : 0)), total);
 export const percent = (current: number, total: number) => total > 0 ? Math.round(current / total * 100) : 0;
+
+// Rough reading-length assumptions, not verified bibliographic page counts.
+// Users can replace these with the page total for their edition.
+function estimatedPagesThrough(part: Part, chapters: number): number {
+  if (part.id === 7) return Math.min(chapters, 23) * 20 + Math.max(0, chapters - 23) * 40;
+  return chapters * (part.id <= 6 ? 20 : 40);
+}
+export function mangaPagesFor(state: State, part: Part, readChapters = progressFor(state, part.id).manga) {
+  const chapters = releaseFor(state, part).chapters;
+  const custom = state.mangaPages?.[part.id];
+  const scale = custom ? custom.total / estimatedPagesThrough(part, custom.chapters) : 1;
+  return {
+    total: Math.round(estimatedPagesThrough(part, chapters) * scale),
+    read: Math.round(estimatedPagesThrough(part, clamp(readChapters, chapters)) * scale),
+    custom: !!custom,
+  };
+}
+
+export function mangaPageTotals(state: State) {
+  return PARTS.reduce((sum, part) => {
+    const pages = mangaPagesFor(state, part);
+    return { read: sum.read + pages.read, total: sum.total + pages.total };
+  }, { read: 0, total: 0 });
+}
+
+export function journeyCompletion(state: State, medium: Medium = 'both'): number {
+  const ratios: number[] = [];
+  if (medium !== 'manga') {
+    const anime = PARTS.reduce((sum, part) => ({
+      watched: sum.watched + progressFor(state, part.id).anime,
+      total: sum.total + releaseFor(state, part).episodes,
+    }), { watched: 0, total: 0 });
+    if (anime.total) ratios.push(anime.watched / anime.total);
+  }
+  if (medium !== 'anime') {
+    const pages = mangaPageTotals(state);
+    if (pages.total) ratios.push(pages.read / pages.total);
+  }
+  return ratios.length ? Math.round(100 * ratios.reduce((sum, n) => sum + n, 0) / ratios.length) : 0;
+}
 
 // Calendar-only arithmetic avoids daylight-saving shifts. Releases become due at
 // midnight in the user's local calendar; no background service is required.
@@ -93,7 +137,10 @@ export function completion(state: State, part: Part, medium: Medium = 'both'): n
   const p = progressFor(state, part.id), r = releaseFor(state, part);
   const ratios: number[] = [];
   if (medium !== 'manga' && r.episodes) ratios.push(p.anime / r.episodes);
-  if (medium !== 'anime' && r.chapters) ratios.push(p.manga / r.chapters);
+  if (medium !== 'anime' && r.chapters) {
+    const pages = mangaPagesFor(state, part);
+    ratios.push(pages.read / pages.total);
+  }
   return ratios.length ? Math.round(ratios.reduce((a, b) => a + b, 0) / ratios.length * 100) : 0;
 }
 export function statusFor(state: State, part: Part, medium: Medium = 'both') {
@@ -143,6 +190,16 @@ export function validateImport(value: unknown): State {
       const totals = releaseFor(next, part);
       if (p.anime > totals.episodes || p.manga > totals.chapters) throw new Error(`Progress exceeds the catalog for ${part.title}.`);
       next.progress[part.id] = { anime: p.anime, manga: p.manga, favorite: p.favorite, notes: p.notes };
+    }
+  }
+  if (s.mangaPages !== undefined) {
+    if (!s.mangaPages || typeof s.mangaPages !== 'object' || Array.isArray(s.mangaPages)) throw new Error('Invalid manga page totals.');
+    next.mangaPages = {};
+    for (const [key, pages] of Object.entries(s.mangaPages)) {
+      if (!PARTS.some(part => String(part.id) === key) || !pages || typeof pages !== 'object' || Array.isArray(pages)
+        || !validNumber(pages.chapters) || pages.chapters === 0
+        || !Number.isInteger(pages.total) || pages.total < pages.chapters || pages.total > 10000000) throw new Error('Invalid manga page totals.');
+      next.mangaPages[Number(key)] = { total: pages.total, chapters: pages.chapters };
     }
   }
   return next;

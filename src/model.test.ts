@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { PARTS, completion, freshState, nextScheduledDate, progressFor, releaseFor, statusFor, syncSchedules, updateProgress, validateImport, validDate } from './model.ts';
+import { PARTS, completion, freshState, nextScheduledDate, progressFor, releaseFor, statusFor, syncSchedules, updateProgress, validateImport, validDate, mangaPagesFor, mangaPageTotals, journeyCompletion } from './model.ts';
 
 test('starting catalog uses the supplied SBR 6 / JOJOLands 41 baseline', () => {
   const s = freshState();
@@ -88,4 +88,66 @@ test('malformed backups are rejected without mutating the existing state', () =>
   const badCoverage = freshState();
   badCoverage.releases[8] = { episodes: 0, chapters: 110, adapted: 3 };
   assert.throws(() => validateImport(badCoverage), /Invalid release/);
+});
+
+test('SBR changes page weights after weekly chapter 23', () => {
+  const s = freshState(), sbr = PARTS[6];
+  assert.equal(mangaPagesFor(s, sbr, 22).read, 440);
+  assert.equal(mangaPagesFor(s, sbr, 23).read, 460);
+  assert.equal(mangaPagesFor(s, sbr, 24).read, 500);
+  assert.equal(mangaPagesFor(s, sbr, 95).total, 3340);
+  assert.equal(completion(updateProgress(s, sbr, 'manga', 23), sbr, 'manga'), 14);
+  assert.equal(mangaPagesFor(s, PARTS[0], 1).read, 20);
+  assert.equal(mangaPagesFor(s, PARTS[7], 1).read, 40);
+});
+
+test('overall manga weights pages across parts and combines formats equally', () => {
+  let s = updateProgress(freshState(), PARTS[0], 'manga', 44);
+  assert.deepEqual(mangaPageTotals(s), { read: 880, total: 24420 });
+  assert.equal(journeyCompletion(s, 'manga'), 4);
+  const longPart = updateProgress(freshState(), PARTS[7], 'manga', 110);
+  assert.equal(journeyCompletion(longPart, 'manga'), 18);
+  for (const part of PARTS) s = updateProgress(s, part, 'anime', part.episodes);
+  assert.equal(journeyCompletion(s, 'anime'), 100);
+  assert.equal(journeyCompletion(s), 52);
+  for (const part of PARTS) s = updateProgress(s, part, 'manga', part.chapters);
+  assert.equal(journeyCompletion(s), 100);
+});
+
+test('custom totals preserve SBR phase weights and migrate through backups', () => {
+  let s = updateProgress(freshState(), PARTS[6], 'manga', 23);
+  s.mangaPages = { 7: { total: 6680, chapters: 95 } };
+  assert.equal(mangaPagesFor(s, PARTS[6]).read, 920);
+  s = updateProgress(s, PARTS[6], 'manga', 24);
+  assert.equal(mangaPagesFor(s, PARTS[6]).read, 1000);
+  assert.equal(mangaPagesFor(s, PARTS[6]).total, 6680);
+  assert.deepEqual(validateImport(JSON.parse(JSON.stringify(s))), s);
+  const legacy = freshState();
+  assert.deepEqual(validateImport(legacy), legacy);
+  assert.equal(mangaPagesFor(validateImport(legacy), PARTS[6]).total, 3340);
+});
+
+test('scheduled chapters grow custom page estimates without advancing reading', () => {
+  const s = updateProgress(freshState(), PARTS[8], 'manga', 41);
+  s.mangaPages = { 9: { total: 1230, chapters: 41 } };
+  const next = syncSchedules(s, '2026-11-19').state;
+  assert.equal(mangaPagesFor(next, PARTS[8]).total, 1260);
+  assert.equal(mangaPagesFor(next, PARTS[8]).read, 1230);
+  assert.deepEqual(next.mangaPages, s.mangaPages);
+  assert.equal(mangaPagesFor(syncSchedules(next, '2026-11-19').state, PARTS[8]).total, 1260);
+  next.releases[9] = { episodes: 0, chapters: 0, adapted: 0 };
+  assert.equal(mangaPagesFor(next, PARTS[8]).read, 0);
+  assert.equal(mangaPagesFor(next, PARTS[8]).total, 0);
+});
+
+test('page totals reject malformed data and empty catalogs stay finite', () => {
+  for (const pages of [null, [], { 7: { total: 10, chapters: 95 } }, { 7: { total: 4000, chapters: 0 } },
+    { 7: { total: '4000', chapters: 95 } }, { 7: { total: 10000001, chapters: 95 } },
+    { 7: { total: 4000.5, chapters: 95 } }, { 10: { total: 4000, chapters: 95 } }]) {
+    assert.throws(() => validateImport({ ...freshState(), mangaPages: pages }), /page totals/);
+  }
+  const s = freshState();
+  for (const part of PARTS) s.releases[part.id] = { episodes: 0, chapters: 0, adapted: 0 };
+  assert.deepEqual(mangaPageTotals(s), { read: 0, total: 0 });
+  assert.equal(journeyCompletion(s), 0);
 });
