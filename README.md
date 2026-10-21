@@ -31,7 +31,7 @@ For development with automatic updates, run `npm run dev` after the first setup.
 ## Features
 
 - Nine illustrated part cards with independent anime and manga progress, quick logging, notes, favorites, and undo.
-- Manga completion weighted by estimated pages, including Steel Ball Run’s weekly-to-monthly chapter-length change and editable page totals per part.
+- Manga completion weighted by sourced chapter pages, including Steel Ball Run’s changing chapter lengths and editable page totals per part.
 - A visual timeline showing story eras and publication order across the original and alternate continuities.
 - Overview totals, per-format completion, searching, status filters, and sorting by publication order or progress.
 - Adaptation coverage based on manga chapters covered by anime, independent of personal progress.
@@ -42,13 +42,15 @@ For development with automatic updates, run `npm run dev` after the first setup.
 
 ## Manga progress by pages
 
-Continue logging completed chapters. The app estimates the pages read through that chapter and uses **sum of pages read / sum of pages available** for the overall manga percentage. Longer parts contribute more than shorter parts. Anime uses episodes watched / episodes available; All formats averages the anime and manga percentages equally. Per-part manga bars and progress sorting also use page weights.
+Continue logging completed chapters. The app sums the sourced lengths of those chapters and uses **sum of pages read / sum of pages available** for the overall manga percentage. Longer parts contribute more than shorter parts. Anime uses episodes watched / episodes available; All formats averages the anime and manga percentages equally. Per-part manga bars and progress sorting also use pages.
 
-The current fallback model uses **20 pages per chapter for Parts 1–6**, **20 for Steel Ball Run chapters 1–23 and 40 from chapter 24 onward**, and **40 for JoJolion and The JOJOLands**. These are deliberately labeled rough estimates, not verified page counts. Individual chapters vary, including long opening chapters. Reference-site requests were blocked by this environment’s proxy, so no sourced chapter-by-chapter page dataset is claimed.
+The bundled dataset contains **998 chapter lengths** from [JoJo Wiki](https://jojowiki.com/), retrieved October 20, 2026. It covers the app’s baseline chapters across all nine parts, including The JOJOLands through chapter 41. Where a chapter entry distinguishes Volume and Magazine counts, the Volume count is selected. Other entries use their listed count. Steel Ball Run uses each individual chapter’s length: chapter 1 has 53 pages, chapter 24 has 23, and chapter 25 has 65. No fixed weekly/monthly page assumption is applied to sourced chapters.
 
-In **Release catalog → Manga page totals**, enter the total pages for the currently released chapters in your edition. The app scales its chapter estimates to match that total while retaining SBR’s weekly/monthly distinction. Clearing a field restores the default model. Even with a real total entered, pages read are estimated between chapter boundaries because individual chapter lengths have not been supplied.
+See [source notes and per-part sums](data/README.md) and [chapter-level revision records](data/manga-page-sources.json). These are chapter-page counts reported by the wiki, not publisher-certified totals for every edition. Chapter sums can differ from book or part summaries; extra material is not assigned to chapters without a source.
 
-Each custom total retains the chapter count it was entered against. Future scheduled chapters add pages using the same scale, so already-read pages do not increase automatically. Editing a page total recalibrates the estimate; it never changes your logged chapters. All overrides are included in backups, and older saves without page fields continue to work. Adaptation coverage remains chapter-based.
+Future scheduled chapters beyond the dataset use the rounded average of the last six known chapters for that part. The app marks totals containing these forecasts as **includes estimates**. Already-read sourced chapters retain their page counts. This is an offline snapshot, not a live page-count feed.
+
+In **Release catalog → Manga page totals**, enter the total pages for the currently released chapters in your edition. Custom totals scale the chapter lengths to that total; the resulting reading amounts are labeled as estimates. Clearing a field restores the sourced counts. Overrides retain their original chapter baseline so new releases do not automatically increase pages already read. All overrides are included in backups; older saves remain compatible. Adaptation coverage remains chapter-based.
 
 ## Release schedules and source assumptions
 
@@ -56,7 +58,7 @@ The user supplied **Steel Ball Run episode 6** and **The JOJOLands chapter 41** 
 
 Counts advance on the device’s local calendar at midnight. The app checks on startup, when returning to the tab, and once per minute while open. Missed dates catch up once. Closing the app does not run a background job; the same result is calculated when it is reopened. Pausing stops accumulation. Resuming a past-due schedule selects the next future release date instead of backfilling the pause.
 
-These are **scheduled estimates, not a verified publisher feed**. Adjust the schedule for breaks and delays. Official release sites were unavailable from the build environment. Adapted chapter counts remain manual: anime episodes do not correspond to a fixed number of chapters. Parts 1–6 are cataloged as fully adapted; Steel Ball Run has six episodes but its adapted chapter total is unset, so overall coverage displays a lower bound until that total is supplied. Zero anime totals mean unlisted in this catalog, not confirmation of an unreleased adaptation. OVAs, films, and spin-offs are outside this tracker’s scope.
+These are **scheduled estimates, not a verified publisher feed**. Adjust the schedule for breaks and delays. Adapted chapter counts remain manual: anime episodes do not correspond to a fixed number of chapters. Parts 1–6 are cataloged as fully adapted; Steel Ball Run has six episodes but its adapted chapter total is unset, so overall coverage displays a lower bound until that total is supplied. Zero anime totals mean unlisted in this catalog, not confirmation of an unreleased adaptation. OVAs, films, and spin-offs are outside this tracker’s scope.
 
 Personal watched/read counts never advance automatically. The default library is empty of personal progress. `src/model.ts` holds the stable catalog and schedule math; `src/ReleaseSchedule.tsx` provides schedule controls.
 
@@ -67,7 +69,7 @@ npm test
 npm run build
 ```
 
-The 15 model tests cover progress bounds, independent formats, Friday/monthly catch-up, idempotency, pauses, delays, short months, leap years, backup validation, page-weighted totals, SBR’s chapter-23/24 transition, custom page totals, legacy saves, and stable reading progress after new releases.
+The 17 model tests cover progress bounds, independent formats, Friday/monthly catch-up, idempotency, pauses, delays, short months, leap years, backup validation, page-weighted totals, sourced SBR chapter lengths, provenance for all 998 entries, future-chapter forecasts, custom page totals, legacy saves, and stable reading progress after new releases.
 
 For browser checks, keep the dev server running and use an environment with Python Playwright and Chromium installed:
 
@@ -76,7 +78,7 @@ python tests/browser_smoke.py
 python tests/ui_audit.py
 ```
 
-The smoke checks cover editing, undo, notes, favorites, filtering, adaptation, persistence, date advancement, schedule pause/resume, backups, mobile layout, and corrupt storage recovery. The full UI audit runs 25 isolated scenarios covering every navigation route, all 45 part-opening controls, format-specific actions, sorting, all 27 catalog fields, keyboard focus and Escape handling, phone backup actions, empty/completed libraries, storage-failure recovery, editable page totals, page-count backup data, monthly page growth, and phone page-total controls. Each scenario uses a clean profile and a fixed clock. External reference links are tested with controlled destination responses; availability of the actual external services is not asserted.
+The smoke checks cover editing, undo, notes, favorites, filtering, adaptation, persistence, date advancement, schedule pause/resume, backups, mobile layout, and corrupt storage recovery. The full UI audit runs 26 isolated scenarios covering every navigation route, all 45 part-opening controls, format-specific actions, sorting, all 27 catalog fields, keyboard focus and Escape handling, phone backup actions, empty/completed libraries, storage-failure recovery, editable page totals, page-count backup data, monthly page growth, and phone page-total controls. Each scenario uses a clean profile and a fixed clock. External reference links are tested with controlled destination responses; availability of the actual external services is not asserted.
 
 To test a production preview on a different port, set `JOJO_TEST_URL`, for example `JOJO_TEST_URL=http://127.0.0.1:5175 python tests/ui_audit.py`.
 

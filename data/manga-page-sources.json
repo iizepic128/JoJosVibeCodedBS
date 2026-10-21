@@ -1,0 +1,7011 @@
+{
+  "retrieved": "2026-10-20",
+  "source": "https://jojowiki.com/",
+  "policy": "Chapter infobox page counts; use Volume when explicitly distinguished from Magazine. These are chapter-page sums, not print-edition totals including extras.",
+  "parts": {
+    "1": [
+      {
+        "chapter": 1,
+        "title": "Chapter 1",
+        "revision": 1342549,
+        "pages": 31,
+        "basis": "listed"
+      },
+      {
+        "chapter": 2,
+        "title": "Chapter 2",
+        "revision": 1306063,
+        "pages": 23,
+        "basis": "listed"
+      },
+      {
+        "chapter": 3,
+        "title": "Chapter 3",
+        "revision": 1204105,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 4,
+        "title": "Chapter 4",
+        "revision": 1204106,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 5,
+        "title": "Chapter 5",
+        "revision": 1302245,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 6,
+        "title": "Chapter 6",
+        "revision": 1305745,
+        "pages": 23,
+        "basis": "listed"
+      },
+      {
+        "chapter": 7,
+        "title": "Chapter 7",
+        "revision": 1204117,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 8,
+        "title": "Chapter 8",
+        "revision": 1326638,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 9,
+        "title": "Chapter 9",
+        "revision": 1204115,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 10,
+        "title": "Chapter 10",
+        "revision": 1230886,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 11,
+        "title": "Chapter 11",
+        "revision": 1230887,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 12,
+        "title": "Chapter 12",
+        "revision": 1303498,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 13,
+        "title": "Chapter 13",
+        "revision": 1204127,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 14,
+        "title": "Chapter 14",
+        "revision": 1204118,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 15,
+        "title": "Chapter 15",
+        "revision": 1230890,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 16,
+        "title": "Chapter 16",
+        "revision": 1335756,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 17,
+        "title": "Chapter 17",
+        "revision": 1204119,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 18,
+        "title": "Chapter 18",
+        "revision": 1230889,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 19,
+        "title": "Chapter 19",
+        "revision": 1230888,
+        "pages": 18,
+        "basis": "volume"
+      },
+      {
+        "chapter": 20,
+        "title": "Chapter 20",
+        "revision": 1305663,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 21,
+        "title": "Chapter 21",
+        "revision": 1326700,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 22,
+        "title": "Chapter 22",
+        "revision": 1230891,
+        "pages": 18,
+        "basis": "volume"
+      },
+      {
+        "chapter": 23,
+        "title": "Chapter 23",
+        "revision": 1264564,
+        "pages": 20,
+        "basis": "volume"
+      },
+      {
+        "chapter": 24,
+        "title": "Chapter 24",
+        "revision": 1230892,
+        "pages": 18,
+        "basis": "volume"
+      },
+      {
+        "chapter": 25,
+        "title": "Chapter 25",
+        "revision": 1204121,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 26,
+        "title": "Chapter 26",
+        "revision": 1230893,
+        "pages": 18,
+        "basis": "volume"
+      },
+      {
+        "chapter": 27,
+        "title": "Chapter 27",
+        "revision": 1204129,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 28,
+        "title": "Chapter 28",
+        "revision": 1204364,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 29,
+        "title": "Chapter 29",
+        "revision": 1306228,
+        "pages": 18,
+        "basis": "volume"
+      },
+      {
+        "chapter": 30,
+        "title": "Chapter 30",
+        "revision": 1306180,
+        "pages": 20,
+        "basis": "volume"
+      },
+      {
+        "chapter": 31,
+        "title": "Chapter 31",
+        "revision": 1207821,
+        "pages": 20,
+        "basis": "volume"
+      },
+      {
+        "chapter": 32,
+        "title": "Chapter 32",
+        "revision": 1207952,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 33,
+        "title": "Chapter 33",
+        "revision": 1208093,
+        "pages": 20,
+        "basis": "volume"
+      },
+      {
+        "chapter": 34,
+        "title": "Chapter 34",
+        "revision": 1202342,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 35,
+        "title": "Chapter 35",
+        "revision": 1202631,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 36,
+        "title": "Chapter 36",
+        "revision": 1202870,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 37,
+        "title": "Chapter 37",
+        "revision": 1202354,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 38,
+        "title": "Chapter 38",
+        "revision": 1202448,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 39,
+        "title": "Chapter 39",
+        "revision": 1230895,
+        "pages": 18,
+        "basis": "volume"
+      },
+      {
+        "chapter": 40,
+        "title": "Chapter 40",
+        "revision": 1202308,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 41,
+        "title": "Chapter 41",
+        "revision": 1202468,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 42,
+        "title": "Chapter 42",
+        "revision": 1264587,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 43,
+        "title": "Chapter 43",
+        "revision": 1202406,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 44,
+        "title": "Chapter 44",
+        "revision": 1306223,
+        "pages": 21,
+        "basis": "volume"
+      }
+    ],
+    "2": [
+      {
+        "chapter": 1,
+        "title": "Chapter 45",
+        "revision": 1305945,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 2,
+        "title": "Chapter 46",
+        "revision": 1252076,
+        "pages": 18,
+        "basis": "volume"
+      },
+      {
+        "chapter": 3,
+        "title": "Chapter 47",
+        "revision": 1252077,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 4,
+        "title": "Chapter 48",
+        "revision": 1252134,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 5,
+        "title": "Chapter 49",
+        "revision": 1252135,
+        "pages": 18,
+        "basis": "volume"
+      },
+      {
+        "chapter": 6,
+        "title": "Chapter 50",
+        "revision": 1340844,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 7,
+        "title": "Chapter 51",
+        "revision": 1327221,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 8,
+        "title": "Chapter 52",
+        "revision": 1264589,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 9,
+        "title": "Chapter 53",
+        "revision": 1305572,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 10,
+        "title": "Chapter 54",
+        "revision": 1202486,
+        "pages": 18,
+        "basis": "volume"
+      },
+      {
+        "chapter": 11,
+        "title": "Chapter 55",
+        "revision": 1252084,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 12,
+        "title": "Chapter 56",
+        "revision": 1252085,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 13,
+        "title": "Chapter 57",
+        "revision": 1252087,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 14,
+        "title": "Chapter 58",
+        "revision": 1228396,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 15,
+        "title": "Chapter 59",
+        "revision": 1228397,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 16,
+        "title": "Chapter 60",
+        "revision": 1202671,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 17,
+        "title": "Chapter 61",
+        "revision": 1230913,
+        "pages": 18,
+        "basis": "volume"
+      },
+      {
+        "chapter": 18,
+        "title": "Chapter 62",
+        "revision": 1264592,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 19,
+        "title": "Chapter 63",
+        "revision": 1202490,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 20,
+        "title": "Chapter 64",
+        "revision": 1321110,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 21,
+        "title": "Chapter 65",
+        "revision": 1203650,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 22,
+        "title": "Chapter 66",
+        "revision": 1202675,
+        "pages": 18,
+        "basis": "volume"
+      },
+      {
+        "chapter": 23,
+        "title": "Chapter 67",
+        "revision": 1202802,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 24,
+        "title": "Chapter 68",
+        "revision": 1202476,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 25,
+        "title": "Chapter 69",
+        "revision": 1202333,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 26,
+        "title": "Chapter 70",
+        "revision": 1230914,
+        "pages": 18,
+        "basis": "volume"
+      },
+      {
+        "chapter": 27,
+        "title": "Chapter 71",
+        "revision": 1327227,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 28,
+        "title": "Chapter 72",
+        "revision": 1252088,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 29,
+        "title": "Chapter 73",
+        "revision": 1264593,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 30,
+        "title": "Chapter 74",
+        "revision": 1223741,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 31,
+        "title": "Chapter 75",
+        "revision": 1305462,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 32,
+        "title": "Chapter 76",
+        "revision": 1223743,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 33,
+        "title": "Chapter 77",
+        "revision": 1223744,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 34,
+        "title": "Chapter 78",
+        "revision": 1264596,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 35,
+        "title": "Chapter 79",
+        "revision": 1223746,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 36,
+        "title": "Chapter 80",
+        "revision": 1223747,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 37,
+        "title": "Chapter 81",
+        "revision": 1230915,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 38,
+        "title": "Chapter 82",
+        "revision": 1223749,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 39,
+        "title": "Chapter 83",
+        "revision": 1223750,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 40,
+        "title": "Chapter 84",
+        "revision": 1223751,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 41,
+        "title": "Chapter 85",
+        "revision": 1223752,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 42,
+        "title": "Chapter 86",
+        "revision": 1223753,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 43,
+        "title": "Chapter 87",
+        "revision": 1223754,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 44,
+        "title": "Chapter 88",
+        "revision": 1223755,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 45,
+        "title": "Chapter 89",
+        "revision": 1223756,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 46,
+        "title": "Chapter 90",
+        "revision": 1230916,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 47,
+        "title": "Chapter 91",
+        "revision": 1230917,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 48,
+        "title": "Chapter 92",
+        "revision": 1223759,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 49,
+        "title": "Chapter 93",
+        "revision": 1264590,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 50,
+        "title": "Chapter 94",
+        "revision": 1223761,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 51,
+        "title": "Chapter 95",
+        "revision": 1223762,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 52,
+        "title": "Chapter 96",
+        "revision": 1252136,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 53,
+        "title": "Chapter 97",
+        "revision": 1252137,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 54,
+        "title": "Chapter 98",
+        "revision": 1223765,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 55,
+        "title": "Chapter 99",
+        "revision": 1223767,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 56,
+        "title": "Chapter 100",
+        "revision": 1337275,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 57,
+        "title": "Chapter 101",
+        "revision": 1231839,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 58,
+        "title": "Chapter 102",
+        "revision": 1223770,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 59,
+        "title": "Chapter 103",
+        "revision": 1202789,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 60,
+        "title": "Chapter 104",
+        "revision": 1223772,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 61,
+        "title": "Chapter 105",
+        "revision": 1340808,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 62,
+        "title": "Chapter 106",
+        "revision": 1252068,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 63,
+        "title": "Chapter 107",
+        "revision": 1223775,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 64,
+        "title": "Chapter 108",
+        "revision": 1252131,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 65,
+        "title": "Chapter 109",
+        "revision": 1223777,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 66,
+        "title": "Chapter 110",
+        "revision": 1223778,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 67,
+        "title": "Chapter 111",
+        "revision": 1252069,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 68,
+        "title": "Chapter 112",
+        "revision": 1305433,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 69,
+        "title": "Chapter 113",
+        "revision": 1305965,
+        "pages": 23,
+        "basis": "volume"
+      }
+    ],
+    "3": [
+      {
+        "chapter": 1,
+        "title": "Chapter 114",
+        "revision": 1336515,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 2,
+        "title": "Chapter 115",
+        "revision": 1260889,
+        "pages": 23,
+        "basis": "listed"
+      },
+      {
+        "chapter": 3,
+        "title": "Chapter 116",
+        "revision": 1306088,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 4,
+        "title": "Chapter 117",
+        "revision": 1252133,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 5,
+        "title": "Chapter 118",
+        "revision": 1223784,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 6,
+        "title": "Chapter 119",
+        "revision": 1223785,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 7,
+        "title": "Chapter 120",
+        "revision": 1223786,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 8,
+        "title": "Chapter 121",
+        "revision": 1339534,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 9,
+        "title": "Chapter 122",
+        "revision": 1262122,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 10,
+        "title": "Chapter 123",
+        "revision": 1306248,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 11,
+        "title": "Chapter 124",
+        "revision": 1305439,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 12,
+        "title": "Chapter 125",
+        "revision": 1223792,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 13,
+        "title": "Chapter 126",
+        "revision": 1264656,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 14,
+        "title": "Chapter 127",
+        "revision": 1230925,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 15,
+        "title": "Chapter 128",
+        "revision": 1305615,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 16,
+        "title": "Chapter 129",
+        "revision": 1230926,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 17,
+        "title": "Chapter 130",
+        "revision": 1223797,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 18,
+        "title": "Chapter 131",
+        "revision": 1238841,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 19,
+        "title": "Chapter 132",
+        "revision": 1327205,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 20,
+        "title": "Chapter 133",
+        "revision": 1247011,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 21,
+        "title": "Chapter 134",
+        "revision": 1238844,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 22,
+        "title": "Chapter 135",
+        "revision": 1238845,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 23,
+        "title": "Chapter 136",
+        "revision": 1264615,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 24,
+        "title": "Chapter 137",
+        "revision": 1238847,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 25,
+        "title": "Chapter 138",
+        "revision": 1238848,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 26,
+        "title": "Chapter 139",
+        "revision": 1305894,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 27,
+        "title": "Chapter 140",
+        "revision": 1337651,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 28,
+        "title": "Chapter 141",
+        "revision": 1337255,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 29,
+        "title": "Chapter 142",
+        "revision": 1238852,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 30,
+        "title": "Chapter 143",
+        "revision": 1238853,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 31,
+        "title": "Chapter 144",
+        "revision": 1306128,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 32,
+        "title": "Chapter 145",
+        "revision": 1327213,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 33,
+        "title": "Chapter 146",
+        "revision": 1337267,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 34,
+        "title": "Chapter 147",
+        "revision": 1240246,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 35,
+        "title": "Chapter 148",
+        "revision": 1238858,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 36,
+        "title": "Chapter 149",
+        "revision": 1238859,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 37,
+        "title": "Chapter 150",
+        "revision": 1238860,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 38,
+        "title": "Chapter 151",
+        "revision": 1238862,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 39,
+        "title": "Chapter 152",
+        "revision": 1238863,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 40,
+        "title": "Chapter 153",
+        "revision": 1305849,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 41,
+        "title": "Chapter 154",
+        "revision": 1305566,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 42,
+        "title": "Chapter 155",
+        "revision": 1238866,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 43,
+        "title": "Chapter 156",
+        "revision": 1238867,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 44,
+        "title": "Chapter 157",
+        "revision": 1238868,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 45,
+        "title": "Chapter 158",
+        "revision": 1300464,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 46,
+        "title": "Chapter 159",
+        "revision": 1238870,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 47,
+        "title": "Chapter 160",
+        "revision": 1305494,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 48,
+        "title": "Chapter 161",
+        "revision": 1238872,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 49,
+        "title": "Chapter 162",
+        "revision": 1305587,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 50,
+        "title": "Chapter 163",
+        "revision": 1238874,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 51,
+        "title": "Chapter 164",
+        "revision": 1238875,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 52,
+        "title": "Chapter 165",
+        "revision": 1305867,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 53,
+        "title": "Chapter 166",
+        "revision": 1238877,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 54,
+        "title": "Chapter 167",
+        "revision": 1238878,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 55,
+        "title": "Chapter 168",
+        "revision": 1337627,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 56,
+        "title": "Chapter 169",
+        "revision": 1337633,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 57,
+        "title": "Chapter 170",
+        "revision": 1264606,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 58,
+        "title": "Chapter 171",
+        "revision": 1238882,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 59,
+        "title": "Chapter 172",
+        "revision": 1238884,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 60,
+        "title": "Chapter 173",
+        "revision": 1238885,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 61,
+        "title": "Chapter 174",
+        "revision": 1238887,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 62,
+        "title": "Chapter 175",
+        "revision": 1238888,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 63,
+        "title": "Chapter 176",
+        "revision": 1305623,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 64,
+        "title": "Chapter 177",
+        "revision": 1305485,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 65,
+        "title": "Chapter 178",
+        "revision": 1238893,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 66,
+        "title": "Chapter 179",
+        "revision": 1238894,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 67,
+        "title": "Chapter 180",
+        "revision": 1238895,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 68,
+        "title": "Chapter 181",
+        "revision": 1238896,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 69,
+        "title": "Chapter 182",
+        "revision": 1238897,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 70,
+        "title": "Chapter 183",
+        "revision": 1335895,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 71,
+        "title": "Chapter 184",
+        "revision": 1264132,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 72,
+        "title": "Chapter 185",
+        "revision": 1238900,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 73,
+        "title": "Chapter 186",
+        "revision": 1238901,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 74,
+        "title": "Chapter 187",
+        "revision": 1238902,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 75,
+        "title": "Chapter 188",
+        "revision": 1238903,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 76,
+        "title": "Chapter 189",
+        "revision": 1238904,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 77,
+        "title": "Chapter 190",
+        "revision": 1238905,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 78,
+        "title": "Chapter 191",
+        "revision": 1238906,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 79,
+        "title": "Chapter 192",
+        "revision": 1238907,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 80,
+        "title": "Chapter 193",
+        "revision": 1238908,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 81,
+        "title": "Chapter 194",
+        "revision": 1238909,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 82,
+        "title": "Chapter 195",
+        "revision": 1238910,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 83,
+        "title": "Chapter 196",
+        "revision": 1238911,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 84,
+        "title": "Chapter 197",
+        "revision": 1238912,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 85,
+        "title": "Chapter 198",
+        "revision": 1312658,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 86,
+        "title": "Chapter 199",
+        "revision": 1238914,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 87,
+        "title": "Chapter 200",
+        "revision": 1238915,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 88,
+        "title": "Chapter 201",
+        "revision": 1238917,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 89,
+        "title": "Chapter 202",
+        "revision": 1238918,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 90,
+        "title": "Chapter 203",
+        "revision": 1238919,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 91,
+        "title": "Chapter 204",
+        "revision": 1238920,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 92,
+        "title": "Chapter 205",
+        "revision": 1238921,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 93,
+        "title": "Chapter 206",
+        "revision": 1262123,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 94,
+        "title": "Chapter 207",
+        "revision": 1300466,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 95,
+        "title": "Chapter 208",
+        "revision": 1238924,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 96,
+        "title": "Chapter 209",
+        "revision": 1238925,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 97,
+        "title": "Chapter 210",
+        "revision": 1238926,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 98,
+        "title": "Chapter 211",
+        "revision": 1238927,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 99,
+        "title": "Chapter 212",
+        "revision": 1238928,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 100,
+        "title": "Chapter 213",
+        "revision": 1255311,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 101,
+        "title": "Chapter 214",
+        "revision": 1238930,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 102,
+        "title": "Chapter 215",
+        "revision": 1238931,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 103,
+        "title": "Chapter 216",
+        "revision": 1238932,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 104,
+        "title": "Chapter 217",
+        "revision": 1238933,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 105,
+        "title": "Chapter 218",
+        "revision": 1238934,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 106,
+        "title": "Chapter 219",
+        "revision": 1238935,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 107,
+        "title": "Chapter 220",
+        "revision": 1238936,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 108,
+        "title": "Chapter 221",
+        "revision": 1238937,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 109,
+        "title": "Chapter 222",
+        "revision": 1238938,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 110,
+        "title": "Chapter 223",
+        "revision": 1238939,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 111,
+        "title": "Chapter 224",
+        "revision": 1238940,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 112,
+        "title": "Chapter 225",
+        "revision": 1238941,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 113,
+        "title": "Chapter 226",
+        "revision": 1238942,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 114,
+        "title": "Chapter 227",
+        "revision": 1238943,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 115,
+        "title": "Chapter 228",
+        "revision": 1238944,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 116,
+        "title": "Chapter 229",
+        "revision": 1238945,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 117,
+        "title": "Chapter 230",
+        "revision": 1329114,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 118,
+        "title": "Chapter 231",
+        "revision": 1238947,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 119,
+        "title": "Chapter 232",
+        "revision": 1305731,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 120,
+        "title": "Chapter 233",
+        "revision": 1238949,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 121,
+        "title": "Chapter 234",
+        "revision": 1238950,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 122,
+        "title": "Chapter 235",
+        "revision": 1238951,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 123,
+        "title": "Chapter 236",
+        "revision": 1238952,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 124,
+        "title": "Chapter 237",
+        "revision": 1238953,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 125,
+        "title": "Chapter 238",
+        "revision": 1238954,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 126,
+        "title": "Chapter 239",
+        "revision": 1238955,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 127,
+        "title": "Chapter 240",
+        "revision": 1238956,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 128,
+        "title": "Chapter 241",
+        "revision": 1238957,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 129,
+        "title": "Chapter 242",
+        "revision": 1238958,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 130,
+        "title": "Chapter 243",
+        "revision": 1238959,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 131,
+        "title": "Chapter 244",
+        "revision": 1238960,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 132,
+        "title": "Chapter 245",
+        "revision": 1238961,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 133,
+        "title": "Chapter 246",
+        "revision": 1247162,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 134,
+        "title": "Chapter 247",
+        "revision": 1238963,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 135,
+        "title": "Chapter 248",
+        "revision": 1238964,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 136,
+        "title": "Chapter 249",
+        "revision": 1238965,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 137,
+        "title": "Chapter 250",
+        "revision": 1305897,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 138,
+        "title": "Chapter 251",
+        "revision": 1238967,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 139,
+        "title": "Chapter 252",
+        "revision": 1238968,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 140,
+        "title": "Chapter 253",
+        "revision": 1306059,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 141,
+        "title": "Chapter 254",
+        "revision": 1238970,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 142,
+        "title": "Chapter 255",
+        "revision": 1238971,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 143,
+        "title": "Chapter 256",
+        "revision": 1238972,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 144,
+        "title": "Chapter 257",
+        "revision": 1238973,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 145,
+        "title": "Chapter 258",
+        "revision": 1306056,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 146,
+        "title": "Chapter 259",
+        "revision": 1238975,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 147,
+        "title": "Chapter 260",
+        "revision": 1238976,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 148,
+        "title": "Chapter 261",
+        "revision": 1246298,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 149,
+        "title": "Chapter 262",
+        "revision": 1238978,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 150,
+        "title": "Chapter 263",
+        "revision": 1238979,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 151,
+        "title": "Chapter 264",
+        "revision": 1238980,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 152,
+        "title": "Chapter 265",
+        "revision": 1247519,
+        "pages": 20,
+        "basis": "volume"
+      }
+    ],
+    "4": [
+      {
+        "chapter": 1,
+        "title": "Chapter 266",
+        "revision": 1233945,
+        "pages": 23,
+        "basis": "listed"
+      },
+      {
+        "chapter": 2,
+        "title": "Chapter 267",
+        "revision": 1247164,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 3,
+        "title": "Chapter 268",
+        "revision": 1238983,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 4,
+        "title": "Chapter 269",
+        "revision": 1238984,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 5,
+        "title": "Chapter 270",
+        "revision": 1238985,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 6,
+        "title": "Chapter 271",
+        "revision": 1238986,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 7,
+        "title": "Chapter 272",
+        "revision": 1239140,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 8,
+        "title": "Chapter 273",
+        "revision": 1238988,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 9,
+        "title": "Chapter 274",
+        "revision": 1306154,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 10,
+        "title": "Chapter 275",
+        "revision": 1305964,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 11,
+        "title": "Chapter 276",
+        "revision": 1238991,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 12,
+        "title": "Chapter 277",
+        "revision": 1238992,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 13,
+        "title": "Chapter 278",
+        "revision": 1238993,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 14,
+        "title": "Chapter 279",
+        "revision": 1238994,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 15,
+        "title": "Chapter 280",
+        "revision": 1264624,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 16,
+        "title": "Chapter 281",
+        "revision": 1326708,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 17,
+        "title": "Chapter 282",
+        "revision": 1305803,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 18,
+        "title": "Chapter 283",
+        "revision": 1238998,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 19,
+        "title": "Chapter 284",
+        "revision": 1238999,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 20,
+        "title": "Chapter 285",
+        "revision": 1239000,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 21,
+        "title": "Chapter 286",
+        "revision": 1239001,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 22,
+        "title": "Chapter 287",
+        "revision": 1264625,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 23,
+        "title": "Chapter 288",
+        "revision": 1239003,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 24,
+        "title": "Chapter 289",
+        "revision": 1315846,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 25,
+        "title": "Chapter 290",
+        "revision": 1239005,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 26,
+        "title": "Chapter 291",
+        "revision": 1239006,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 27,
+        "title": "Chapter 292",
+        "revision": 1239007,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 28,
+        "title": "Chapter 293",
+        "revision": 1326754,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 29,
+        "title": "Chapter 294",
+        "revision": 1259239,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 30,
+        "title": "Chapter 295",
+        "revision": 1326668,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 31,
+        "title": "Chapter 296",
+        "revision": 1259241,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 32,
+        "title": "Chapter 297",
+        "revision": 1259242,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 33,
+        "title": "Chapter 298",
+        "revision": 1259243,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 34,
+        "title": "Chapter 299",
+        "revision": 1264626,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 35,
+        "title": "Chapter 300",
+        "revision": 1302270,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 36,
+        "title": "Chapter 301",
+        "revision": 1259246,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 37,
+        "title": "Chapter 302",
+        "revision": 1259247,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 38,
+        "title": "Chapter 303",
+        "revision": 1259248,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 39,
+        "title": "Chapter 304",
+        "revision": 1302271,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 40,
+        "title": "Chapter 305",
+        "revision": 1264627,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 41,
+        "title": "Chapter 306",
+        "revision": 1259251,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 42,
+        "title": "Chapter 307",
+        "revision": 1259252,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 43,
+        "title": "Chapter 308",
+        "revision": 1259253,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 44,
+        "title": "Chapter 309",
+        "revision": 1259254,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 45,
+        "title": "Chapter 310",
+        "revision": 1259255,
+        "pages": 20,
+        "basis": "volume"
+      },
+      {
+        "chapter": 46,
+        "title": "Chapter 311",
+        "revision": 1259256,
+        "pages": 18,
+        "basis": "volume"
+      },
+      {
+        "chapter": 47,
+        "title": "Chapter 312",
+        "revision": 1284530,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 48,
+        "title": "Chapter 313",
+        "revision": 1259258,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 49,
+        "title": "Chapter 314",
+        "revision": 1259259,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 50,
+        "title": "Chapter 315",
+        "revision": 1259260,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 51,
+        "title": "Chapter 316",
+        "revision": 1259261,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 52,
+        "title": "Chapter 317",
+        "revision": 1259262,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 53,
+        "title": "Chapter 318",
+        "revision": 1259264,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 54,
+        "title": "Chapter 319",
+        "revision": 1259265,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 55,
+        "title": "Chapter 320",
+        "revision": 1259266,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 56,
+        "title": "Chapter 321",
+        "revision": 1270585,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 57,
+        "title": "Chapter 322",
+        "revision": 1259268,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 58,
+        "title": "Chapter 323",
+        "revision": 1259269,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 59,
+        "title": "Chapter 324",
+        "revision": 1259270,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 60,
+        "title": "Chapter 325",
+        "revision": 1259271,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 61,
+        "title": "Chapter 326",
+        "revision": 1259272,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 62,
+        "title": "Chapter 327",
+        "revision": 1259273,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 63,
+        "title": "Chapter 328",
+        "revision": 1259274,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 64,
+        "title": "Chapter 329",
+        "revision": 1259275,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 65,
+        "title": "Chapter 330",
+        "revision": 1259276,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 66,
+        "title": "Chapter 331",
+        "revision": 1259277,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 67,
+        "title": "Chapter 332",
+        "revision": 1259278,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 68,
+        "title": "Chapter 333",
+        "revision": 1342046,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 69,
+        "title": "Chapter 334",
+        "revision": 1259280,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 70,
+        "title": "Chapter 335",
+        "revision": 1259281,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 71,
+        "title": "Chapter 336",
+        "revision": 1259301,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 72,
+        "title": "Chapter 337",
+        "revision": 1259302,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 73,
+        "title": "Chapter 338",
+        "revision": 1264170,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 74,
+        "title": "Chapter 339",
+        "revision": 1326690,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 75,
+        "title": "Chapter 340",
+        "revision": 1326728,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 76,
+        "title": "Chapter 341",
+        "revision": 1259306,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 77,
+        "title": "Chapter 342",
+        "revision": 1259307,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 78,
+        "title": "Chapter 343",
+        "revision": 1264628,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 79,
+        "title": "Chapter 344",
+        "revision": 1259309,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 80,
+        "title": "Chapter 345",
+        "revision": 1305929,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 81,
+        "title": "Chapter 346",
+        "revision": 1306027,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 82,
+        "title": "Chapter 347",
+        "revision": 1306177,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 83,
+        "title": "Chapter 348",
+        "revision": 1306029,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 84,
+        "title": "Chapter 349",
+        "revision": 1259314,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 85,
+        "title": "Chapter 350",
+        "revision": 1259315,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 86,
+        "title": "Chapter 351",
+        "revision": 1259316,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 87,
+        "title": "Chapter 352",
+        "revision": 1259324,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 88,
+        "title": "Chapter 353",
+        "revision": 1326679,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 89,
+        "title": "Chapter 354",
+        "revision": 1259326,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 90,
+        "title": "Chapter 355",
+        "revision": 1306246,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 91,
+        "title": "Chapter 356",
+        "revision": 1259328,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 92,
+        "title": "Chapter 357",
+        "revision": 1259329,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 93,
+        "title": "Chapter 358",
+        "revision": 1264630,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 94,
+        "title": "Chapter 359",
+        "revision": 1259331,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 95,
+        "title": "Chapter 360",
+        "revision": 1259332,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 96,
+        "title": "Chapter 361",
+        "revision": 1259333,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 97,
+        "title": "Chapter 362",
+        "revision": 1259334,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 98,
+        "title": "Chapter 363",
+        "revision": 1259335,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 99,
+        "title": "Chapter 364",
+        "revision": 1302269,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 100,
+        "title": "Chapter 365",
+        "revision": 1305434,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 101,
+        "title": "Chapter 366",
+        "revision": 1259338,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 102,
+        "title": "Chapter 367",
+        "revision": 1259339,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 103,
+        "title": "Chapter 368",
+        "revision": 1259340,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 104,
+        "title": "Chapter 369",
+        "revision": 1259341,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 105,
+        "title": "Chapter 370",
+        "revision": 1259343,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 106,
+        "title": "Chapter 371",
+        "revision": 1259344,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 107,
+        "title": "Chapter 372",
+        "revision": 1305883,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 108,
+        "title": "Chapter 373",
+        "revision": 1264631,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 109,
+        "title": "Chapter 374",
+        "revision": 1259347,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 110,
+        "title": "Chapter 375",
+        "revision": 1259348,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 111,
+        "title": "Chapter 376",
+        "revision": 1259349,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 112,
+        "title": "Chapter 377",
+        "revision": 1259350,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 113,
+        "title": "Chapter 378",
+        "revision": 1259351,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 114,
+        "title": "Chapter 379",
+        "revision": 1259352,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 115,
+        "title": "Chapter 380",
+        "revision": 1264632,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 116,
+        "title": "Chapter 381",
+        "revision": 1302257,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 117,
+        "title": "Chapter 382",
+        "revision": 1259355,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 118,
+        "title": "Chapter 383",
+        "revision": 1259356,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 119,
+        "title": "Chapter 384",
+        "revision": 1259357,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 120,
+        "title": "Chapter 385",
+        "revision": 1259358,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 121,
+        "title": "Chapter 386",
+        "revision": 1259359,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 122,
+        "title": "Chapter 387",
+        "revision": 1259360,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 123,
+        "title": "Chapter 388",
+        "revision": 1259361,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 124,
+        "title": "Chapter 389",
+        "revision": 1302247,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 125,
+        "title": "Chapter 390",
+        "revision": 1259363,
+        "pages": 22,
+        "basis": "listed"
+      },
+      {
+        "chapter": 126,
+        "title": "Chapter 391",
+        "revision": 1259364,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 127,
+        "title": "Chapter 392",
+        "revision": 1259365,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 128,
+        "title": "Chapter 393",
+        "revision": 1259366,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 129,
+        "title": "Chapter 394",
+        "revision": 1259367,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 130,
+        "title": "Chapter 395",
+        "revision": 1320076,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 131,
+        "title": "Chapter 396",
+        "revision": 1302251,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 132,
+        "title": "Chapter 397",
+        "revision": 1259370,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 133,
+        "title": "Chapter 398",
+        "revision": 1306042,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 134,
+        "title": "Chapter 399",
+        "revision": 1259372,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 135,
+        "title": "Chapter 400",
+        "revision": 1259373,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 136,
+        "title": "Chapter 401",
+        "revision": 1259374,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 137,
+        "title": "Chapter 402",
+        "revision": 1259375,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 138,
+        "title": "Chapter 403",
+        "revision": 1259376,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 139,
+        "title": "Chapter 404",
+        "revision": 1259377,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 140,
+        "title": "Chapter 405",
+        "revision": 1301137,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 141,
+        "title": "Chapter 406",
+        "revision": 1301139,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 142,
+        "title": "Chapter 407",
+        "revision": 1301140,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 143,
+        "title": "Chapter 408",
+        "revision": 1328706,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 144,
+        "title": "Chapter 409",
+        "revision": 1328707,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 145,
+        "title": "Chapter 410",
+        "revision": 1328708,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 146,
+        "title": "Chapter 411",
+        "revision": 1328709,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 147,
+        "title": "Chapter 412",
+        "revision": 1328710,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 148,
+        "title": "Chapter 413",
+        "revision": 1328711,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 149,
+        "title": "Chapter 414",
+        "revision": 1328713,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 150,
+        "title": "Chapter 415",
+        "revision": 1328714,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 151,
+        "title": "Chapter 416",
+        "revision": 1328715,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 152,
+        "title": "Chapter 417",
+        "revision": 1328726,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 153,
+        "title": "Chapter 418",
+        "revision": 1328717,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 154,
+        "title": "Chapter 419",
+        "revision": 1328718,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 155,
+        "title": "Chapter 420",
+        "revision": 1328719,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 156,
+        "title": "Chapter 421",
+        "revision": 1328720,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 157,
+        "title": "Chapter 422",
+        "revision": 1328756,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 158,
+        "title": "Chapter 423",
+        "revision": 1328728,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 159,
+        "title": "Chapter 424",
+        "revision": 1328731,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 160,
+        "title": "Chapter 425",
+        "revision": 1328732,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 161,
+        "title": "Chapter 426",
+        "revision": 1328733,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 162,
+        "title": "Chapter 427",
+        "revision": 1328734,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 163,
+        "title": "Chapter 428",
+        "revision": 1328735,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 164,
+        "title": "Chapter 429",
+        "revision": 1328736,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 165,
+        "title": "Chapter 430",
+        "revision": 1328737,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 166,
+        "title": "Chapter 431",
+        "revision": 1328738,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 167,
+        "title": "Chapter 432",
+        "revision": 1328739,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 168,
+        "title": "Chapter 433",
+        "revision": 1328740,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 169,
+        "title": "Chapter 434",
+        "revision": 1328741,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 170,
+        "title": "Chapter 435",
+        "revision": 1328742,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 171,
+        "title": "Chapter 436",
+        "revision": 1328743,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 172,
+        "title": "Chapter 437",
+        "revision": 1328744,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 173,
+        "title": "Chapter 438",
+        "revision": 1328745,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 174,
+        "title": "Chapter 439",
+        "revision": 1305393,
+        "pages": 21,
+        "basis": "volume"
+      }
+    ],
+    "5": [
+      {
+        "chapter": 1,
+        "title": "Chapter 440",
+        "revision": 1306234,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 2,
+        "title": "Chapter 441",
+        "revision": 1328746,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 3,
+        "title": "Chapter 442",
+        "revision": 1328747,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 4,
+        "title": "Chapter 443",
+        "revision": 1328750,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 5,
+        "title": "Chapter 444",
+        "revision": 1328751,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 6,
+        "title": "Chapter 445",
+        "revision": 1343800,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 7,
+        "title": "Chapter 446",
+        "revision": 1328753,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 8,
+        "title": "Chapter 447",
+        "revision": 1328754,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 9,
+        "title": "Chapter 448",
+        "revision": 1328755,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 10,
+        "title": "Chapter 449",
+        "revision": 1328757,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 11,
+        "title": "Chapter 450",
+        "revision": 1328758,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 12,
+        "title": "Chapter 451",
+        "revision": 1328759,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 13,
+        "title": "Chapter 452",
+        "revision": 1328760,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 14,
+        "title": "Chapter 453",
+        "revision": 1328761,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 15,
+        "title": "Chapter 454",
+        "revision": 1328762,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 16,
+        "title": "Chapter 455",
+        "revision": 1328763,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 17,
+        "title": "Chapter 456",
+        "revision": 1328764,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 18,
+        "title": "Chapter 457",
+        "revision": 1328765,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 19,
+        "title": "Chapter 458",
+        "revision": 1328766,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 20,
+        "title": "Chapter 459",
+        "revision": 1328767,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 21,
+        "title": "Chapter 460",
+        "revision": 1328768,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 22,
+        "title": "Chapter 461",
+        "revision": 1328769,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 23,
+        "title": "Chapter 462",
+        "revision": 1344204,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 24,
+        "title": "Chapter 463",
+        "revision": 1328771,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 25,
+        "title": "Chapter 464",
+        "revision": 1328772,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 26,
+        "title": "Chapter 465",
+        "revision": 1342868,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 27,
+        "title": "Chapter 466",
+        "revision": 1337276,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 28,
+        "title": "Chapter 467",
+        "revision": 1328775,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 29,
+        "title": "Chapter 468",
+        "revision": 1328776,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 30,
+        "title": "Chapter 469",
+        "revision": 1328777,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 31,
+        "title": "Chapter 470",
+        "revision": 1328778,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 32,
+        "title": "Chapter 471",
+        "revision": 1328779,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 33,
+        "title": "Chapter 472",
+        "revision": 1328780,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 34,
+        "title": "Chapter 473",
+        "revision": 1328781,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 35,
+        "title": "Chapter 474",
+        "revision": 1328782,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 36,
+        "title": "Chapter 475",
+        "revision": 1328783,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 37,
+        "title": "Chapter 476",
+        "revision": 1328784,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 38,
+        "title": "Chapter 477",
+        "revision": 1328785,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 39,
+        "title": "Chapter 478",
+        "revision": 1328786,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 40,
+        "title": "Chapter 479",
+        "revision": 1328787,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 41,
+        "title": "Chapter 480",
+        "revision": 1328788,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 42,
+        "title": "Chapter 481",
+        "revision": 1328789,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 43,
+        "title": "Chapter 482",
+        "revision": 1328790,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 44,
+        "title": "Chapter 483",
+        "revision": 1328791,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 45,
+        "title": "Chapter 484",
+        "revision": 1328792,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 46,
+        "title": "Chapter 485",
+        "revision": 1328793,
+        "pages": 18,
+        "basis": "listed"
+      },
+      {
+        "chapter": 47,
+        "title": "Chapter 486",
+        "revision": 1328794,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 48,
+        "title": "Chapter 487",
+        "revision": 1328795,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 49,
+        "title": "Chapter 488",
+        "revision": 1328796,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 50,
+        "title": "Chapter 489",
+        "revision": 1328797,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 51,
+        "title": "Chapter 490",
+        "revision": 1328798,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 52,
+        "title": "Chapter 491",
+        "revision": 1328799,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 53,
+        "title": "Chapter 492",
+        "revision": 1328800,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 54,
+        "title": "Chapter 493",
+        "revision": 1328801,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 55,
+        "title": "Chapter 494",
+        "revision": 1328802,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 56,
+        "title": "Chapter 495",
+        "revision": 1328803,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 57,
+        "title": "Chapter 496",
+        "revision": 1328804,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 58,
+        "title": "Chapter 497",
+        "revision": 1328805,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 59,
+        "title": "Chapter 498",
+        "revision": 1328806,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 60,
+        "title": "Chapter 499",
+        "revision": 1328807,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 61,
+        "title": "Chapter 500",
+        "revision": 1328808,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 62,
+        "title": "Chapter 501",
+        "revision": 1328809,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 63,
+        "title": "Chapter 502",
+        "revision": 1328810,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 64,
+        "title": "Chapter 503",
+        "revision": 1328811,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 65,
+        "title": "Chapter 504",
+        "revision": 1328812,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 66,
+        "title": "Chapter 505",
+        "revision": 1328813,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 67,
+        "title": "Chapter 506",
+        "revision": 1328814,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 68,
+        "title": "Chapter 507",
+        "revision": 1328815,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 69,
+        "title": "Chapter 508",
+        "revision": 1328816,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 70,
+        "title": "Chapter 509",
+        "revision": 1328817,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 71,
+        "title": "Chapter 510",
+        "revision": 1328818,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 72,
+        "title": "Chapter 511",
+        "revision": 1328819,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 73,
+        "title": "Chapter 512",
+        "revision": 1328820,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 74,
+        "title": "Chapter 513",
+        "revision": 1328821,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 75,
+        "title": "Chapter 514",
+        "revision": 1328822,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 76,
+        "title": "Chapter 515",
+        "revision": 1328823,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 77,
+        "title": "Chapter 516",
+        "revision": 1328824,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 78,
+        "title": "Chapter 517",
+        "revision": 1328825,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 79,
+        "title": "Chapter 518",
+        "revision": 1328826,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 80,
+        "title": "Chapter 519",
+        "revision": 1328827,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 81,
+        "title": "Chapter 520",
+        "revision": 1328828,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 82,
+        "title": "Chapter 521",
+        "revision": 1328829,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 83,
+        "title": "Chapter 522",
+        "revision": 1202481,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 84,
+        "title": "Chapter 523",
+        "revision": 1267428,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 85,
+        "title": "Chapter 524",
+        "revision": 1231002,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 86,
+        "title": "Chapter 525",
+        "revision": 1202328,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 87,
+        "title": "Chapter 526",
+        "revision": 1202311,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 88,
+        "title": "Chapter 527",
+        "revision": 1202760,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 89,
+        "title": "Chapter 528",
+        "revision": 1202853,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 90,
+        "title": "Chapter 529",
+        "revision": 1202654,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 91,
+        "title": "Chapter 530",
+        "revision": 1202719,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 92,
+        "title": "Chapter 531",
+        "revision": 1328830,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 93,
+        "title": "Chapter 532",
+        "revision": 1342603,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 94,
+        "title": "Chapter 533",
+        "revision": 1328832,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 95,
+        "title": "Chapter 534",
+        "revision": 1202492,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 96,
+        "title": "Chapter 535",
+        "revision": 1202284,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 97,
+        "title": "Chapter 536",
+        "revision": 1302317,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 98,
+        "title": "Chapter 537",
+        "revision": 1231005,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 99,
+        "title": "Chapter 538",
+        "revision": 1202797,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 100,
+        "title": "Chapter 539",
+        "revision": 1202639,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 101,
+        "title": "Chapter 540",
+        "revision": 1268483,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 102,
+        "title": "Chapter 541",
+        "revision": 1263960,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 103,
+        "title": "Chapter 542",
+        "revision": 1203656,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 104,
+        "title": "Chapter 543",
+        "revision": 1266110,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 105,
+        "title": "Chapter 544",
+        "revision": 1202740,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 106,
+        "title": "Chapter 545",
+        "revision": 1202496,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 107,
+        "title": "Chapter 546",
+        "revision": 1202404,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 108,
+        "title": "Chapter 547",
+        "revision": 1231006,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 109,
+        "title": "Chapter 548",
+        "revision": 1202368,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 110,
+        "title": "Chapter 549",
+        "revision": 1202499,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 111,
+        "title": "Chapter 550",
+        "revision": 1202708,
+        "pages": 21,
+        "basis": "volume"
+      },
+      {
+        "chapter": 112,
+        "title": "Chapter 551",
+        "revision": 1202599,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 113,
+        "title": "Chapter 552",
+        "revision": 1202621,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 114,
+        "title": "Chapter 553",
+        "revision": 1203602,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 115,
+        "title": "Chapter 554",
+        "revision": 1203603,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 116,
+        "title": "Chapter 555",
+        "revision": 1202581,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 117,
+        "title": "Chapter 556",
+        "revision": 1202313,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 118,
+        "title": "Chapter 557",
+        "revision": 1202847,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 119,
+        "title": "Chapter 558",
+        "revision": 1203667,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 120,
+        "title": "Chapter 559",
+        "revision": 1203649,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 121,
+        "title": "Chapter 560",
+        "revision": 1203725,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 122,
+        "title": "Chapter 561",
+        "revision": 1203730,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 123,
+        "title": "Chapter 562",
+        "revision": 1202452,
+        "pages": 20,
+        "basis": "volume"
+      },
+      {
+        "chapter": 124,
+        "title": "Chapter 563",
+        "revision": 1237107,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 125,
+        "title": "Chapter 564",
+        "revision": 1202582,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 126,
+        "title": "Chapter 565",
+        "revision": 1202801,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 127,
+        "title": "Chapter 566",
+        "revision": 1302325,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 128,
+        "title": "Chapter 567",
+        "revision": 1246808,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 129,
+        "title": "Chapter 568",
+        "revision": 1202800,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 130,
+        "title": "Chapter 569",
+        "revision": 1341347,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 131,
+        "title": "Chapter 570",
+        "revision": 1202848,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 132,
+        "title": "Chapter 571",
+        "revision": 1305569,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 133,
+        "title": "Chapter 572",
+        "revision": 1302319,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 134,
+        "title": "Chapter 573",
+        "revision": 1202281,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 135,
+        "title": "Chapter 574",
+        "revision": 1202638,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 136,
+        "title": "Chapter 575",
+        "revision": 1305881,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 137,
+        "title": "Chapter 576",
+        "revision": 1202768,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 138,
+        "title": "Chapter 577",
+        "revision": 1202830,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 139,
+        "title": "Chapter 578",
+        "revision": 1202733,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 140,
+        "title": "Chapter 579",
+        "revision": 1344639,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 141,
+        "title": "Chapter 580",
+        "revision": 1202558,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 142,
+        "title": "Chapter 581",
+        "revision": 1202617,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 143,
+        "title": "Chapter 582",
+        "revision": 1202805,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 144,
+        "title": "Chapter 583",
+        "revision": 1202438,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 145,
+        "title": "Chapter 584",
+        "revision": 1302320,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 146,
+        "title": "Chapter 585",
+        "revision": 1202694,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 147,
+        "title": "Chapter 586",
+        "revision": 1202482,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 148,
+        "title": "Chapter 587",
+        "revision": 1202603,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 149,
+        "title": "Chapter 588",
+        "revision": 1202410,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 150,
+        "title": "Chapter 589",
+        "revision": 1231008,
+        "pages": 6,
+        "basis": "listed"
+      },
+      {
+        "chapter": 151,
+        "title": "Chapter 590",
+        "revision": 1202702,
+        "pages": 13,
+        "basis": "listed"
+      },
+      {
+        "chapter": 152,
+        "title": "Chapter 591",
+        "revision": 1203688,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 153,
+        "title": "Chapter 592",
+        "revision": 1202865,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 154,
+        "title": "Chapter 593",
+        "revision": 1202353,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 155,
+        "title": "Chapter 594",
+        "revision": 1233956,
+        "pages": 21,
+        "basis": "listed"
+      }
+    ],
+    "6": [
+      {
+        "chapter": 1,
+        "title": "SO Chapter 1",
+        "revision": 1306494,
+        "pages": 49,
+        "basis": "listed"
+      },
+      {
+        "chapter": 2,
+        "title": "SO Chapter 2",
+        "revision": 1230448,
+        "pages": 27,
+        "basis": "listed"
+      },
+      {
+        "chapter": 3,
+        "title": "SO Chapter 3",
+        "revision": 1230449,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 4,
+        "title": "SO Chapter 4",
+        "revision": 1230450,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 5,
+        "title": "SO Chapter 5",
+        "revision": 1306377,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 6,
+        "title": "SO Chapter 6",
+        "revision": 1203034,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 7,
+        "title": "SO Chapter 7",
+        "revision": 1249147,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 8,
+        "title": "SO Chapter 8",
+        "revision": 1202907,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 9,
+        "title": "SO Chapter 9",
+        "revision": 1203031,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 10,
+        "title": "SO Chapter 10",
+        "revision": 1230452,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 11,
+        "title": "SO Chapter 11",
+        "revision": 1202894,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 12,
+        "title": "SO Chapter 12",
+        "revision": 1203046,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 13,
+        "title": "SO Chapter 13",
+        "revision": 1230453,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 14,
+        "title": "SO Chapter 14",
+        "revision": 1202934,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 15,
+        "title": "SO Chapter 15",
+        "revision": 1230454,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 16,
+        "title": "SO Chapter 16",
+        "revision": 1202985,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 17,
+        "title": "SO Chapter 17",
+        "revision": 1203754,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 18,
+        "title": "SO Chapter 18",
+        "revision": 1264709,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 19,
+        "title": "SO Chapter 19",
+        "revision": 1230456,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 20,
+        "title": "SO Chapter 20",
+        "revision": 1329034,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 21,
+        "title": "SO Chapter 21",
+        "revision": 1314674,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 22,
+        "title": "SO Chapter 22",
+        "revision": 1314672,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 23,
+        "title": "SO Chapter 23",
+        "revision": 1326701,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 24,
+        "title": "SO Chapter 24",
+        "revision": 1314673,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 25,
+        "title": "SO Chapter 25",
+        "revision": 1314676,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 26,
+        "title": "SO Chapter 26",
+        "revision": 1230460,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 27,
+        "title": "SO Chapter 27",
+        "revision": 1230461,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 28,
+        "title": "SO Chapter 28",
+        "revision": 1202948,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 29,
+        "title": "SO Chapter 29",
+        "revision": 1202890,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 30,
+        "title": "SO Chapter 30",
+        "revision": 1202940,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 31,
+        "title": "SO Chapter 31",
+        "revision": 1202996,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 32,
+        "title": "SO Chapter 32",
+        "revision": 1230462,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 33,
+        "title": "SO Chapter 33",
+        "revision": 1264711,
+        "pages": 18,
+        "basis": "listed"
+      },
+      {
+        "chapter": 34,
+        "title": "SO Chapter 34",
+        "revision": 1264712,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 35,
+        "title": "SO Chapter 35",
+        "revision": 1202909,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 36,
+        "title": "SO Chapter 36",
+        "revision": 1202963,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 37,
+        "title": "SO Chapter 37",
+        "revision": 1203002,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 38,
+        "title": "SO Chapter 38",
+        "revision": 1202877,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 39,
+        "title": "SO Chapter 39",
+        "revision": 1230463,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 40,
+        "title": "SO Chapter 40",
+        "revision": 1251925,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 41,
+        "title": "SO Chapter 41",
+        "revision": 1203008,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 42,
+        "title": "SO Chapter 42",
+        "revision": 1203027,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 43,
+        "title": "SO Chapter 43",
+        "revision": 1203022,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 44,
+        "title": "SO Chapter 44",
+        "revision": 1203038,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 45,
+        "title": "SO Chapter 45",
+        "revision": 1202893,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 46,
+        "title": "SO Chapter 46",
+        "revision": 1230464,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 47,
+        "title": "SO Chapter 47",
+        "revision": 1203001,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 48,
+        "title": "SO Chapter 48",
+        "revision": 1202954,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 49,
+        "title": "SO Chapter 49",
+        "revision": 1202958,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 50,
+        "title": "SO Chapter 50",
+        "revision": 1203017,
+        "pages": 21,
+        "basis": "volume"
+      },
+      {
+        "chapter": 51,
+        "title": "SO Chapter 51",
+        "revision": 1203007,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 52,
+        "title": "SO Chapter 52",
+        "revision": 1202925,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 53,
+        "title": "SO Chapter 53",
+        "revision": 1202937,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 54,
+        "title": "SO Chapter 54",
+        "revision": 1264718,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 55,
+        "title": "SO Chapter 55",
+        "revision": 1263894,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 56,
+        "title": "SO Chapter 56",
+        "revision": 1263895,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 57,
+        "title": "SO Chapter 57",
+        "revision": 1202955,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 58,
+        "title": "SO Chapter 58",
+        "revision": 1263893,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 59,
+        "title": "SO Chapter 59",
+        "revision": 1202874,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 60,
+        "title": "SO Chapter 60",
+        "revision": 1202973,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 61,
+        "title": "SO Chapter 61",
+        "revision": 1203028,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 62,
+        "title": "SO Chapter 62",
+        "revision": 1202997,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 63,
+        "title": "SO Chapter 63",
+        "revision": 1202979,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 64,
+        "title": "SO Chapter 64",
+        "revision": 1203003,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 65,
+        "title": "SO Chapter 65",
+        "revision": 1202936,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 66,
+        "title": "SO Chapter 66",
+        "revision": 1306393,
+        "pages": 20,
+        "basis": "listed"
+      },
+      {
+        "chapter": 67,
+        "title": "SO Chapter 67",
+        "revision": 1203036,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 68,
+        "title": "SO Chapter 68",
+        "revision": 1202969,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 69,
+        "title": "SO Chapter 69",
+        "revision": 1202880,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 70,
+        "title": "SO Chapter 70",
+        "revision": 1202916,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 71,
+        "title": "SO Chapter 71",
+        "revision": 1202992,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 72,
+        "title": "SO Chapter 72",
+        "revision": 1230466,
+        "pages": 22,
+        "basis": "listed"
+      },
+      {
+        "chapter": 73,
+        "title": "SO Chapter 73",
+        "revision": 1202898,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 74,
+        "title": "SO Chapter 74",
+        "revision": 1202984,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 75,
+        "title": "SO Chapter 75",
+        "revision": 1203010,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 76,
+        "title": "SO Chapter 76",
+        "revision": 1202983,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 77,
+        "title": "SO Chapter 77",
+        "revision": 1202961,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 78,
+        "title": "SO Chapter 78",
+        "revision": 1202885,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 79,
+        "title": "SO Chapter 79",
+        "revision": 1202902,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 80,
+        "title": "SO Chapter 80",
+        "revision": 1203025,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 81,
+        "title": "SO Chapter 81",
+        "revision": 1202941,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 82,
+        "title": "SO Chapter 82",
+        "revision": 1202968,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 83,
+        "title": "SO Chapter 83",
+        "revision": 1202924,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 84,
+        "title": "SO Chapter 84",
+        "revision": 1202900,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 85,
+        "title": "SO Chapter 85",
+        "revision": 1306436,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 86,
+        "title": "SO Chapter 86",
+        "revision": 1317315,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 87,
+        "title": "SO Chapter 87",
+        "revision": 1202976,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 88,
+        "title": "SO Chapter 88",
+        "revision": 1203021,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 89,
+        "title": "SO Chapter 89",
+        "revision": 1202873,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 90,
+        "title": "SO Chapter 90",
+        "revision": 1202918,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 91,
+        "title": "SO Chapter 91",
+        "revision": 1230468,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 92,
+        "title": "SO Chapter 92",
+        "revision": 1202998,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 93,
+        "title": "SO Chapter 93",
+        "revision": 1202881,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 94,
+        "title": "SO Chapter 94",
+        "revision": 1203004,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 95,
+        "title": "SO Chapter 95",
+        "revision": 1202952,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 96,
+        "title": "SO Chapter 96",
+        "revision": 1230469,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 97,
+        "title": "SO Chapter 97",
+        "revision": 1202886,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 98,
+        "title": "SO Chapter 98",
+        "revision": 1202938,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 99,
+        "title": "SO Chapter 99",
+        "revision": 1203011,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 100,
+        "title": "SO Chapter 100",
+        "revision": 1202959,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 101,
+        "title": "SO Chapter 101",
+        "revision": 1230470,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 102,
+        "title": "SO Chapter 102",
+        "revision": 1230471,
+        "pages": 21,
+        "basis": "volume"
+      },
+      {
+        "chapter": 103,
+        "title": "SO Chapter 103",
+        "revision": 1310599,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 104,
+        "title": "SO Chapter 104",
+        "revision": 1321821,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 105,
+        "title": "SO Chapter 105",
+        "revision": 1203047,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 106,
+        "title": "SO Chapter 106",
+        "revision": 1202892,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 107,
+        "title": "SO Chapter 107",
+        "revision": 1202999,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 108,
+        "title": "SO Chapter 108",
+        "revision": 1202942,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 109,
+        "title": "SO Chapter 109",
+        "revision": 1202875,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 110,
+        "title": "SO Chapter 110",
+        "revision": 1255387,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 111,
+        "title": "SO Chapter 111",
+        "revision": 1202903,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 112,
+        "title": "SO Chapter 112",
+        "revision": 1202906,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 113,
+        "title": "SO Chapter 113",
+        "revision": 1203037,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 114,
+        "title": "SO Chapter 114",
+        "revision": 1202991,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 115,
+        "title": "SO Chapter 115",
+        "revision": 1202883,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 116,
+        "title": "SO Chapter 116",
+        "revision": 1203015,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 117,
+        "title": "SO Chapter 117",
+        "revision": 1203045,
+        "pages": 23,
+        "basis": "volume"
+      },
+      {
+        "chapter": 118,
+        "title": "SO Chapter 118",
+        "revision": 1202980,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 119,
+        "title": "SO Chapter 119",
+        "revision": 1202908,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 120,
+        "title": "SO Chapter 120",
+        "revision": 1230472,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 121,
+        "title": "SO Chapter 121",
+        "revision": 1202974,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 122,
+        "title": "SO Chapter 122",
+        "revision": 1261354,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 123,
+        "title": "SO Chapter 123",
+        "revision": 1202876,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 124,
+        "title": "SO Chapter 124",
+        "revision": 1202905,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 125,
+        "title": "SO Chapter 125",
+        "revision": 1230474,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 126,
+        "title": "SO Chapter 126",
+        "revision": 1202922,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 127,
+        "title": "SO Chapter 127",
+        "revision": 1266030,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 128,
+        "title": "SO Chapter 128",
+        "revision": 1266033,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 129,
+        "title": "SO Chapter 129",
+        "revision": 1230477,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 130,
+        "title": "SO Chapter 130",
+        "revision": 1230478,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 131,
+        "title": "SO Chapter 131",
+        "revision": 1230479,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 132,
+        "title": "SO Chapter 132",
+        "revision": 1245214,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 133,
+        "title": "SO Chapter 133",
+        "revision": 1336790,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 134,
+        "title": "SO Chapter 134",
+        "revision": 1230482,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 135,
+        "title": "SO Chapter 135",
+        "revision": 1230483,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 136,
+        "title": "SO Chapter 136",
+        "revision": 1230484,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 137,
+        "title": "SO Chapter 137",
+        "revision": 1230485,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 138,
+        "title": "SO Chapter 138",
+        "revision": 1230486,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 139,
+        "title": "SO Chapter 139",
+        "revision": 1264715,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 140,
+        "title": "SO Chapter 140",
+        "revision": 1230488,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 141,
+        "title": "SO Chapter 141",
+        "revision": 1230489,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 142,
+        "title": "SO Chapter 142",
+        "revision": 1230490,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 143,
+        "title": "SO Chapter 143",
+        "revision": 1230491,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 144,
+        "title": "SO Chapter 144",
+        "revision": 1230492,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 145,
+        "title": "SO Chapter 145",
+        "revision": 1293397,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 146,
+        "title": "SO Chapter 146",
+        "revision": 1264716,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 147,
+        "title": "SO Chapter 147",
+        "revision": 1230495,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 148,
+        "title": "SO Chapter 148",
+        "revision": 1230496,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 149,
+        "title": "SO Chapter 149",
+        "revision": 1230497,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 150,
+        "title": "SO Chapter 150",
+        "revision": 1230498,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 151,
+        "title": "SO Chapter 151",
+        "revision": 1230499,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 152,
+        "title": "SO Chapter 152",
+        "revision": 1230500,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 153,
+        "title": "SO Chapter 153",
+        "revision": 1230501,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 154,
+        "title": "SO Chapter 154",
+        "revision": 1230502,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 155,
+        "title": "SO Chapter 155",
+        "revision": 1306407,
+        "pages": 21,
+        "basis": "listed"
+      },
+      {
+        "chapter": 156,
+        "title": "SO Chapter 156",
+        "revision": 1230504,
+        "pages": 19,
+        "basis": "listed"
+      },
+      {
+        "chapter": 157,
+        "title": "SO Chapter 157",
+        "revision": 1230505,
+        "pages": 22,
+        "basis": "volume"
+      },
+      {
+        "chapter": 158,
+        "title": "SO Chapter 158",
+        "revision": 1266486,
+        "pages": 27,
+        "basis": "volume"
+      }
+    ],
+    "7": [
+      {
+        "chapter": 1,
+        "title": "SBR Chapter 1",
+        "revision": 1337320,
+        "pages": 53,
+        "basis": "listed"
+      },
+      {
+        "chapter": 2,
+        "title": "SBR Chapter 2",
+        "revision": 1298776,
+        "pages": 31,
+        "basis": "listed"
+      },
+      {
+        "chapter": 3,
+        "title": "SBR Chapter 3",
+        "revision": 1306541,
+        "pages": 31,
+        "basis": "listed"
+      },
+      {
+        "chapter": 4,
+        "title": "SBR Chapter 4",
+        "revision": 1336930,
+        "pages": 31,
+        "basis": "listed"
+      },
+      {
+        "chapter": 5,
+        "title": "SBR Chapter 5",
+        "revision": 1251857,
+        "pages": 31,
+        "basis": "listed"
+      },
+      {
+        "chapter": 6,
+        "title": "SBR Chapter 6",
+        "revision": 1306515,
+        "pages": 31,
+        "basis": "listed"
+      },
+      {
+        "chapter": 7,
+        "title": "SBR Chapter 7",
+        "revision": 1251767,
+        "pages": 31,
+        "basis": "listed"
+      },
+      {
+        "chapter": 8,
+        "title": "SBR Chapter 8",
+        "revision": 1306619,
+        "pages": 31,
+        "basis": "listed"
+      },
+      {
+        "chapter": 9,
+        "title": "SBR Chapter 9",
+        "revision": 1251769,
+        "pages": 31,
+        "basis": "listed"
+      },
+      {
+        "chapter": 10,
+        "title": "SBR Chapter 10",
+        "revision": 1306577,
+        "pages": 31,
+        "basis": "listed"
+      },
+      {
+        "chapter": 11,
+        "title": "SBR Chapter 11",
+        "revision": 1336929,
+        "pages": 31,
+        "basis": "listed"
+      },
+      {
+        "chapter": 12,
+        "title": "SBR Chapter 12",
+        "revision": 1342530,
+        "pages": 37,
+        "basis": "listed"
+      },
+      {
+        "chapter": 13,
+        "title": "SBR Chapter 13",
+        "revision": 1336405,
+        "pages": 31,
+        "basis": "listed"
+      },
+      {
+        "chapter": 14,
+        "title": "SBR Chapter 14",
+        "revision": 1335450,
+        "pages": 31,
+        "basis": "listed"
+      },
+      {
+        "chapter": 15,
+        "title": "SBR Chapter 15",
+        "revision": 1337884,
+        "pages": 31,
+        "basis": "listed"
+      },
+      {
+        "chapter": 16,
+        "title": "SBR Chapter 16",
+        "revision": 1340080,
+        "pages": 31,
+        "basis": "listed"
+      },
+      {
+        "chapter": 17,
+        "title": "SBR Chapter 17",
+        "revision": 1338237,
+        "pages": 31,
+        "basis": "listed"
+      },
+      {
+        "chapter": 18,
+        "title": "SBR Chapter 18",
+        "revision": 1341956,
+        "pages": 31,
+        "basis": "listed"
+      },
+      {
+        "chapter": 19,
+        "title": "SBR Chapter 19",
+        "revision": 1340362,
+        "pages": 31,
+        "basis": "listed"
+      },
+      {
+        "chapter": 20,
+        "title": "SBR Chapter 20",
+        "revision": 1343499,
+        "pages": 31,
+        "basis": "listed"
+      },
+      {
+        "chapter": 21,
+        "title": "SBR Chapter 21",
+        "revision": 1343501,
+        "pages": 31,
+        "basis": "listed"
+      },
+      {
+        "chapter": 22,
+        "title": "SBR Chapter 22",
+        "revision": 1343036,
+        "pages": 37,
+        "basis": "listed"
+      },
+      {
+        "chapter": 23,
+        "title": "SBR Chapter 23",
+        "revision": 1343118,
+        "pages": 37,
+        "basis": "listed"
+      },
+      {
+        "chapter": 24,
+        "title": "SBR Chapter 24",
+        "revision": 1251784,
+        "pages": 23,
+        "basis": "listed"
+      },
+      {
+        "chapter": 25,
+        "title": "SBR Chapter 25",
+        "revision": 1343090,
+        "pages": 65,
+        "basis": "listed"
+      },
+      {
+        "chapter": 26,
+        "title": "SBR Chapter 26",
+        "revision": 1343091,
+        "pages": 61,
+        "basis": "listed"
+      },
+      {
+        "chapter": 27,
+        "title": "SBR Chapter 27",
+        "revision": 1251787,
+        "pages": 61,
+        "basis": "listed"
+      },
+      {
+        "chapter": 28,
+        "title": "SBR Chapter 28",
+        "revision": 1339230,
+        "pages": 61,
+        "basis": "listed"
+      },
+      {
+        "chapter": 29,
+        "title": "SBR Chapter 29",
+        "revision": 1178538,
+        "pages": 37,
+        "basis": "listed"
+      },
+      {
+        "chapter": 30,
+        "title": "SBR Chapter 30",
+        "revision": 1256394,
+        "pages": 65,
+        "basis": "volume"
+      },
+      {
+        "chapter": 31,
+        "title": "SBR Chapter 31",
+        "revision": 1251790,
+        "pages": 63,
+        "basis": "listed"
+      },
+      {
+        "chapter": 32,
+        "title": "SBR Chapter 32",
+        "revision": 1251791,
+        "pages": 55,
+        "basis": "listed"
+      },
+      {
+        "chapter": 33,
+        "title": "SBR Chapter 33",
+        "revision": 1251792,
+        "pages": 63,
+        "basis": "listed"
+      },
+      {
+        "chapter": 34,
+        "title": "SBR Chapter 34",
+        "revision": 1251793,
+        "pages": 63,
+        "basis": "listed"
+      },
+      {
+        "chapter": 35,
+        "title": "SBR Chapter 35",
+        "revision": 1251794,
+        "pages": 61,
+        "basis": "listed"
+      },
+      {
+        "chapter": 36,
+        "title": "SBR Chapter 36",
+        "revision": 1295138,
+        "pages": 63,
+        "basis": "listed"
+      },
+      {
+        "chapter": 37,
+        "title": "SBR Chapter 37",
+        "revision": 1251859,
+        "pages": 63,
+        "basis": "listed"
+      },
+      {
+        "chapter": 38,
+        "title": "SBR Chapter 38",
+        "revision": 1251797,
+        "pages": 63,
+        "basis": "listed"
+      },
+      {
+        "chapter": 39,
+        "title": "SBR Chapter 39",
+        "revision": 1251798,
+        "pages": 63,
+        "basis": "listed"
+      },
+      {
+        "chapter": 40,
+        "title": "SBR Chapter 40",
+        "revision": 1316529,
+        "pages": 61,
+        "basis": "listed"
+      },
+      {
+        "chapter": 41,
+        "title": "SBR Chapter 41",
+        "revision": 1251800,
+        "pages": 47,
+        "basis": "listed"
+      },
+      {
+        "chapter": 42,
+        "title": "SBR Chapter 42",
+        "revision": 1251801,
+        "pages": 51,
+        "basis": "listed"
+      },
+      {
+        "chapter": 43,
+        "title": "SBR Chapter 43",
+        "revision": 1255181,
+        "pages": 63,
+        "basis": "listed"
+      },
+      {
+        "chapter": 44,
+        "title": "SBR Chapter 44",
+        "revision": 1336932,
+        "pages": 61,
+        "basis": "listed"
+      },
+      {
+        "chapter": 45,
+        "title": "SBR Chapter 45",
+        "revision": 1251803,
+        "pages": 63,
+        "basis": "listed"
+      },
+      {
+        "chapter": 46,
+        "title": "SBR Chapter 46",
+        "revision": 1251804,
+        "pages": 63,
+        "basis": "listed"
+      },
+      {
+        "chapter": 47,
+        "title": "SBR Chapter 47",
+        "revision": 1256395,
+        "pages": 53,
+        "basis": "volume"
+      },
+      {
+        "chapter": 48,
+        "title": "SBR Chapter 48",
+        "revision": 1270659,
+        "pages": 61,
+        "basis": "listed"
+      },
+      {
+        "chapter": 49,
+        "title": "SBR Chapter 49",
+        "revision": 1265806,
+        "pages": 61,
+        "basis": "listed"
+      },
+      {
+        "chapter": 50,
+        "title": "SBR Chapter 50",
+        "revision": 1265807,
+        "pages": 63,
+        "basis": "volume"
+      },
+      {
+        "chapter": 51,
+        "title": "SBR Chapter 51",
+        "revision": 1265808,
+        "pages": 61,
+        "basis": "listed"
+      },
+      {
+        "chapter": 52,
+        "title": "SBR Chapter 52",
+        "revision": 1343862,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 53,
+        "title": "SBR Chapter 53",
+        "revision": 1343863,
+        "pages": 47,
+        "basis": "listed"
+      },
+      {
+        "chapter": 54,
+        "title": "SBR Chapter 54",
+        "revision": 1265813,
+        "pages": 61,
+        "basis": "listed"
+      },
+      {
+        "chapter": 55,
+        "title": "SBR Chapter 55",
+        "revision": 1265830,
+        "pages": 37,
+        "basis": "listed"
+      },
+      {
+        "chapter": 56,
+        "title": "SBR Chapter 56",
+        "revision": 1302487,
+        "pages": 33,
+        "basis": "listed"
+      },
+      {
+        "chapter": 57,
+        "title": "SBR Chapter 57",
+        "revision": 1302488,
+        "pages": 61,
+        "basis": "listed"
+      },
+      {
+        "chapter": 58,
+        "title": "SBR Chapter 58",
+        "revision": 1302489,
+        "pages": 51,
+        "basis": "listed"
+      },
+      {
+        "chapter": 59,
+        "title": "SBR Chapter 59",
+        "revision": 1298397,
+        "pages": 61,
+        "basis": "listed"
+      },
+      {
+        "chapter": 60,
+        "title": "SBR Chapter 60",
+        "revision": 1302490,
+        "pages": 53,
+        "basis": "listed"
+      },
+      {
+        "chapter": 61,
+        "title": "SBR Chapter 61",
+        "revision": 1306702,
+        "pages": 61,
+        "basis": "listed"
+      },
+      {
+        "chapter": 62,
+        "title": "SBR Chapter 62",
+        "revision": 1302493,
+        "pages": 61,
+        "basis": "listed"
+      },
+      {
+        "chapter": 63,
+        "title": "SBR Chapter 63",
+        "revision": 1314237,
+        "pages": 5,
+        "basis": "listed"
+      },
+      {
+        "chapter": 64,
+        "title": "SBR Chapter 64",
+        "revision": 1251817,
+        "pages": 33,
+        "basis": "listed"
+      },
+      {
+        "chapter": 65,
+        "title": "SBR Chapter 65",
+        "revision": 1251818,
+        "pages": 33,
+        "basis": "listed"
+      },
+      {
+        "chapter": 66,
+        "title": "SBR Chapter 66",
+        "revision": 1251819,
+        "pages": 43,
+        "basis": "listed"
+      },
+      {
+        "chapter": 67,
+        "title": "SBR Chapter 67",
+        "revision": 1251820,
+        "pages": 47,
+        "basis": "listed"
+      },
+      {
+        "chapter": 68,
+        "title": "SBR Chapter 68",
+        "revision": 1251821,
+        "pages": 47,
+        "basis": "listed"
+      },
+      {
+        "chapter": 69,
+        "title": "SBR Chapter 69",
+        "revision": 1251822,
+        "pages": 47,
+        "basis": "listed"
+      },
+      {
+        "chapter": 70,
+        "title": "SBR Chapter 70",
+        "revision": 1336185,
+        "pages": 47,
+        "basis": "listed"
+      },
+      {
+        "chapter": 71,
+        "title": "SBR Chapter 71",
+        "revision": 1327949,
+        "pages": 29,
+        "basis": "listed"
+      },
+      {
+        "chapter": 72,
+        "title": "SBR Chapter 72",
+        "revision": 1327950,
+        "pages": 47,
+        "basis": "listed"
+      },
+      {
+        "chapter": 73,
+        "title": "SBR Chapter 73",
+        "revision": 1315414,
+        "pages": 49,
+        "basis": "listed"
+      },
+      {
+        "chapter": 74,
+        "title": "SBR Chapter 74",
+        "revision": 1300036,
+        "pages": 53,
+        "basis": "listed"
+      },
+      {
+        "chapter": 75,
+        "title": "SBR Chapter 75",
+        "revision": 1248762,
+        "pages": 49,
+        "basis": "listed"
+      },
+      {
+        "chapter": 76,
+        "title": "SBR Chapter 76",
+        "revision": 1251827,
+        "pages": 31,
+        "basis": "listed"
+      },
+      {
+        "chapter": 77,
+        "title": "SBR Chapter 77",
+        "revision": 1251828,
+        "pages": 47,
+        "basis": "listed"
+      },
+      {
+        "chapter": 78,
+        "title": "SBR Chapter 78",
+        "revision": 1251829,
+        "pages": 49,
+        "basis": "listed"
+      },
+      {
+        "chapter": 79,
+        "title": "SBR Chapter 79",
+        "revision": 1251830,
+        "pages": 47,
+        "basis": "listed"
+      },
+      {
+        "chapter": 80,
+        "title": "SBR Chapter 80",
+        "revision": 1251831,
+        "pages": 39,
+        "basis": "listed"
+      },
+      {
+        "chapter": 81,
+        "title": "SBR Chapter 81",
+        "revision": 1251832,
+        "pages": 49,
+        "basis": "listed"
+      },
+      {
+        "chapter": 82,
+        "title": "SBR Chapter 82",
+        "revision": 1251833,
+        "pages": 35,
+        "basis": "listed"
+      },
+      {
+        "chapter": 83,
+        "title": "SBR Chapter 83",
+        "revision": 1251834,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 84,
+        "title": "SBR Chapter 84",
+        "revision": 1251835,
+        "pages": 47,
+        "basis": "listed"
+      },
+      {
+        "chapter": 85,
+        "title": "SBR Chapter 85",
+        "revision": 1338671,
+        "pages": 51,
+        "basis": "listed"
+      },
+      {
+        "chapter": 86,
+        "title": "SBR Chapter 86",
+        "revision": 1251837,
+        "pages": 47,
+        "basis": "listed"
+      },
+      {
+        "chapter": 87,
+        "title": "SBR Chapter 87",
+        "revision": 1251838,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 88,
+        "title": "SBR Chapter 88",
+        "revision": 1338672,
+        "pages": 33,
+        "basis": "listed"
+      },
+      {
+        "chapter": 89,
+        "title": "SBR Chapter 89",
+        "revision": 1316697,
+        "pages": 47,
+        "basis": "listed"
+      },
+      {
+        "chapter": 90,
+        "title": "SBR Chapter 90",
+        "revision": 1251841,
+        "pages": 49,
+        "basis": "listed"
+      },
+      {
+        "chapter": 91,
+        "title": "SBR Chapter 91",
+        "revision": 1260982,
+        "pages": 49,
+        "basis": "listed"
+      },
+      {
+        "chapter": 92,
+        "title": "SBR Chapter 92",
+        "revision": 1251843,
+        "pages": 33,
+        "basis": "listed"
+      },
+      {
+        "chapter": 93,
+        "title": "SBR Chapter 93",
+        "revision": 1296441,
+        "pages": 33,
+        "basis": "listed"
+      },
+      {
+        "chapter": 94,
+        "title": "SBR Chapter 94",
+        "revision": 1251845,
+        "pages": 51,
+        "basis": "listed"
+      },
+      {
+        "chapter": 95,
+        "title": "SBR Chapter 95",
+        "revision": 1341184,
+        "pages": 49,
+        "basis": "listed"
+      }
+    ],
+    "8": [
+      {
+        "chapter": 1,
+        "title": "JJL Chapter 1",
+        "revision": 1306259,
+        "pages": 43,
+        "basis": "listed"
+      },
+      {
+        "chapter": 2,
+        "title": "JJL Chapter 2",
+        "revision": 1297511,
+        "pages": 47,
+        "basis": "listed"
+      },
+      {
+        "chapter": 3,
+        "title": "JJL Chapter 3",
+        "revision": 1264722,
+        "pages": 33,
+        "basis": "listed"
+      },
+      {
+        "chapter": 4,
+        "title": "JJL Chapter 4",
+        "revision": 1264723,
+        "pages": 47,
+        "basis": "listed"
+      },
+      {
+        "chapter": 5,
+        "title": "JJL Chapter 5",
+        "revision": 1234108,
+        "pages": 49,
+        "basis": "listed"
+      },
+      {
+        "chapter": 6,
+        "title": "JJL Chapter 6",
+        "revision": 1305397,
+        "pages": 49,
+        "basis": "listed"
+      },
+      {
+        "chapter": 7,
+        "title": "JJL Chapter 7",
+        "revision": 1305913,
+        "pages": 47,
+        "basis": "listed"
+      },
+      {
+        "chapter": 8,
+        "title": "JJL Chapter 8",
+        "revision": 1306179,
+        "pages": 47,
+        "basis": "listed"
+      },
+      {
+        "chapter": 9,
+        "title": "JJL Chapter 9",
+        "revision": 1306129,
+        "pages": 33,
+        "basis": "listed"
+      },
+      {
+        "chapter": 10,
+        "title": "JJL Chapter 10",
+        "revision": 1309660,
+        "pages": 47,
+        "basis": "listed"
+      },
+      {
+        "chapter": 11,
+        "title": "JJL Chapter 11",
+        "revision": 1343295,
+        "pages": 33,
+        "basis": "listed"
+      },
+      {
+        "chapter": 12,
+        "title": "JJL Chapter 12",
+        "revision": 1326315,
+        "pages": 49,
+        "basis": "listed"
+      },
+      {
+        "chapter": 13,
+        "title": "JJL Chapter 13",
+        "revision": 1326316,
+        "pages": 35,
+        "basis": "listed"
+      },
+      {
+        "chapter": 14,
+        "title": "JJL Chapter 14",
+        "revision": 1312179,
+        "pages": 49,
+        "basis": "listed"
+      },
+      {
+        "chapter": 15,
+        "title": "JJL Chapter 15",
+        "revision": 1293347,
+        "pages": 25,
+        "basis": "listed"
+      },
+      {
+        "chapter": 16,
+        "title": "JJL Chapter 16",
+        "revision": 1309651,
+        "pages": 33,
+        "basis": "listed"
+      },
+      {
+        "chapter": 17,
+        "title": "JJL Chapter 17",
+        "revision": 1231952,
+        "pages": 33,
+        "basis": "listed"
+      },
+      {
+        "chapter": 18,
+        "title": "JJL Chapter 18",
+        "revision": 1264743,
+        "pages": 51,
+        "basis": "listed"
+      },
+      {
+        "chapter": 19,
+        "title": "JJL Chapter 19",
+        "revision": 1178464,
+        "pages": 35,
+        "basis": "listed"
+      },
+      {
+        "chapter": 20,
+        "title": "JJL Chapter 20",
+        "revision": 1264744,
+        "pages": 49,
+        "basis": "listed"
+      },
+      {
+        "chapter": 21,
+        "title": "JJL Chapter 21",
+        "revision": 1337513,
+        "pages": 47,
+        "basis": "listed"
+      },
+      {
+        "chapter": 22,
+        "title": "JJL Chapter 22",
+        "revision": 1295584,
+        "pages": 33,
+        "basis": "listed"
+      },
+      {
+        "chapter": 23,
+        "title": "JJL Chapter 23",
+        "revision": 1309591,
+        "pages": 33,
+        "basis": "listed"
+      },
+      {
+        "chapter": 24,
+        "title": "JJL Chapter 24",
+        "revision": 1309583,
+        "pages": 47,
+        "basis": "listed"
+      },
+      {
+        "chapter": 25,
+        "title": "JJL Chapter 25",
+        "revision": 1264749,
+        "pages": 47,
+        "basis": "listed"
+      },
+      {
+        "chapter": 26,
+        "title": "JJL Chapter 26",
+        "revision": 1264750,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 27,
+        "title": "JJL Chapter 27",
+        "revision": 1264751,
+        "pages": 47,
+        "basis": "listed"
+      },
+      {
+        "chapter": 28,
+        "title": "JJL Chapter 28",
+        "revision": 1178474,
+        "pages": 43,
+        "basis": "listed"
+      },
+      {
+        "chapter": 29,
+        "title": "JJL Chapter 29",
+        "revision": 1264752,
+        "pages": 31,
+        "basis": "listed"
+      },
+      {
+        "chapter": 30,
+        "title": "JJL Chapter 30",
+        "revision": 1264753,
+        "pages": 47,
+        "basis": "listed"
+      },
+      {
+        "chapter": 31,
+        "title": "JJL Chapter 31",
+        "revision": 1305662,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 32,
+        "title": "JJL Chapter 32",
+        "revision": 1264754,
+        "pages": 47,
+        "basis": "listed"
+      },
+      {
+        "chapter": 33,
+        "title": "JJL Chapter 33",
+        "revision": 1305797,
+        "pages": 49,
+        "basis": "listed"
+      },
+      {
+        "chapter": 34,
+        "title": "JJL Chapter 34",
+        "revision": 1306075,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 35,
+        "title": "JJL Chapter 35",
+        "revision": 1264757,
+        "pages": 31,
+        "basis": "listed"
+      },
+      {
+        "chapter": 36,
+        "title": "JJL Chapter 36",
+        "revision": 1309643,
+        "pages": 47,
+        "basis": "listed"
+      },
+      {
+        "chapter": 37,
+        "title": "JJL Chapter 37",
+        "revision": 1264759,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 38,
+        "title": "JJL Chapter 38",
+        "revision": 1264760,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 39,
+        "title": "JJL Chapter 39",
+        "revision": 1264761,
+        "pages": 31,
+        "basis": "listed"
+      },
+      {
+        "chapter": 40,
+        "title": "JJL Chapter 40",
+        "revision": 1264762,
+        "pages": 47,
+        "basis": "listed"
+      },
+      {
+        "chapter": 41,
+        "title": "JJL Chapter 41",
+        "revision": 1264763,
+        "pages": 47,
+        "basis": "listed"
+      },
+      {
+        "chapter": 42,
+        "title": "JJL Chapter 42",
+        "revision": 1295520,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 43,
+        "title": "JJL Chapter 43",
+        "revision": 1264765,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 44,
+        "title": "JJL Chapter 44",
+        "revision": 1305610,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 45,
+        "title": "JJL Chapter 45",
+        "revision": 1264766,
+        "pages": 41,
+        "basis": "listed"
+      },
+      {
+        "chapter": 46,
+        "title": "JJL Chapter 46",
+        "revision": 1264767,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 47,
+        "title": "JJL Chapter 47",
+        "revision": 1264768,
+        "pages": 25,
+        "basis": "listed"
+      },
+      {
+        "chapter": 48,
+        "title": "JJL Chapter 48",
+        "revision": 1264769,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 49,
+        "title": "JJL Chapter 49",
+        "revision": 1264771,
+        "pages": 46,
+        "basis": "listed"
+      },
+      {
+        "chapter": 50,
+        "title": "JJL Chapter 50",
+        "revision": 1295891,
+        "pages": 33,
+        "basis": "listed"
+      },
+      {
+        "chapter": 51,
+        "title": "JJL Chapter 51",
+        "revision": 1310311,
+        "pages": 47,
+        "basis": "listed"
+      },
+      {
+        "chapter": 52,
+        "title": "JJL Chapter 52",
+        "revision": 1310318,
+        "pages": 47,
+        "basis": "listed"
+      },
+      {
+        "chapter": 53,
+        "title": "JJL Chapter 53",
+        "revision": 1336795,
+        "pages": 46,
+        "basis": "listed"
+      },
+      {
+        "chapter": 54,
+        "title": "JJL Chapter 54",
+        "revision": 1306126,
+        "pages": 47,
+        "basis": "listed"
+      },
+      {
+        "chapter": 55,
+        "title": "JJL Chapter 55",
+        "revision": 1295894,
+        "pages": 43,
+        "basis": "listed"
+      },
+      {
+        "chapter": 56,
+        "title": "JJL Chapter 56",
+        "revision": 1231012,
+        "pages": 46,
+        "basis": "listed"
+      },
+      {
+        "chapter": 57,
+        "title": "JJL Chapter 57",
+        "revision": 1231013,
+        "pages": 49,
+        "basis": "listed"
+      },
+      {
+        "chapter": 58,
+        "title": "JJL Chapter 58",
+        "revision": 1295916,
+        "pages": 41,
+        "basis": "listed"
+      },
+      {
+        "chapter": 59,
+        "title": "JJL Chapter 59",
+        "revision": 1264779,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 60,
+        "title": "JJL Chapter 60",
+        "revision": 1264780,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 61,
+        "title": "JJL Chapter 61",
+        "revision": 1264781,
+        "pages": 47,
+        "basis": "listed"
+      },
+      {
+        "chapter": 62,
+        "title": "JJL Chapter 62",
+        "revision": 1306189,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 63,
+        "title": "JJL Chapter 63",
+        "revision": 1203773,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 64,
+        "title": "JJL Chapter 64",
+        "revision": 1264783,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 65,
+        "title": "JJL Chapter 65",
+        "revision": 1264784,
+        "pages": 47,
+        "basis": "listed"
+      },
+      {
+        "chapter": 66,
+        "title": "JJL Chapter 66",
+        "revision": 1264785,
+        "pages": 43,
+        "basis": "listed"
+      },
+      {
+        "chapter": 67,
+        "title": "JJL Chapter 67",
+        "revision": 1264786,
+        "pages": 33,
+        "basis": "listed"
+      },
+      {
+        "chapter": 68,
+        "title": "JJL Chapter 68",
+        "revision": 1264787,
+        "pages": 43,
+        "basis": "listed"
+      },
+      {
+        "chapter": 69,
+        "title": "JJL Chapter 69",
+        "revision": 1264788,
+        "pages": 33,
+        "basis": "listed"
+      },
+      {
+        "chapter": 70,
+        "title": "JJL Chapter 70",
+        "revision": 1310649,
+        "pages": 43,
+        "basis": "listed"
+      },
+      {
+        "chapter": 71,
+        "title": "JJL Chapter 71",
+        "revision": 1297513,
+        "pages": 47,
+        "basis": "listed"
+      },
+      {
+        "chapter": 72,
+        "title": "JJL Chapter 72",
+        "revision": 1310646,
+        "pages": 41,
+        "basis": "listed"
+      },
+      {
+        "chapter": 73,
+        "title": "JJL Chapter 73",
+        "revision": 1264792,
+        "pages": 31,
+        "basis": "listed"
+      },
+      {
+        "chapter": 74,
+        "title": "JJL Chapter 74",
+        "revision": 1310647,
+        "pages": 47,
+        "basis": "listed"
+      },
+      {
+        "chapter": 75,
+        "title": "JJL Chapter 75",
+        "revision": 1264794,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 76,
+        "title": "JJL Chapter 76",
+        "revision": 1310648,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 77,
+        "title": "JJL Chapter 77",
+        "revision": 1264796,
+        "pages": 39,
+        "basis": "listed"
+      },
+      {
+        "chapter": 78,
+        "title": "JJL Chapter 78",
+        "revision": 1265412,
+        "pages": 43,
+        "basis": "listed"
+      },
+      {
+        "chapter": 79,
+        "title": "JJL Chapter 79",
+        "revision": 1264798,
+        "pages": 43,
+        "basis": "listed"
+      },
+      {
+        "chapter": 80,
+        "title": "JJL Chapter 80",
+        "revision": 1265410,
+        "pages": 39,
+        "basis": "listed"
+      },
+      {
+        "chapter": 81,
+        "title": "JJL Chapter 81",
+        "revision": 1191432,
+        "pages": 43,
+        "basis": "listed"
+      },
+      {
+        "chapter": 82,
+        "title": "JJL Chapter 82",
+        "revision": 1195125,
+        "pages": 43,
+        "basis": "listed"
+      },
+      {
+        "chapter": 83,
+        "title": "JJL Chapter 83",
+        "revision": 1264807,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 84,
+        "title": "JJL Chapter 84",
+        "revision": 1264806,
+        "pages": 49,
+        "basis": "listed"
+      },
+      {
+        "chapter": 85,
+        "title": "JJL Chapter 85",
+        "revision": 1264805,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 86,
+        "title": "JJL Chapter 86",
+        "revision": 1264804,
+        "pages": 47,
+        "basis": "listed"
+      },
+      {
+        "chapter": 87,
+        "title": "JJL Chapter 87",
+        "revision": 1264803,
+        "pages": 41,
+        "basis": "listed"
+      },
+      {
+        "chapter": 88,
+        "title": "JJL Chapter 88",
+        "revision": 1341417,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 89,
+        "title": "JJL Chapter 89",
+        "revision": 1305695,
+        "pages": 35,
+        "basis": "listed"
+      },
+      {
+        "chapter": 90,
+        "title": "JJL Chapter 90",
+        "revision": 1264800,
+        "pages": 35,
+        "basis": "listed"
+      },
+      {
+        "chapter": 91,
+        "title": "JJL Chapter 91",
+        "revision": 1306003,
+        "pages": 41,
+        "basis": "listed"
+      },
+      {
+        "chapter": 92,
+        "title": "JJL Chapter 92",
+        "revision": 1305557,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 93,
+        "title": "JJL Chapter 93",
+        "revision": 1305563,
+        "pages": 31,
+        "basis": "listed"
+      },
+      {
+        "chapter": 94,
+        "title": "JJL Chapter 94",
+        "revision": 1306176,
+        "pages": 41,
+        "basis": "listed"
+      },
+      {
+        "chapter": 95,
+        "title": "JJL Chapter 95",
+        "revision": 1305941,
+        "pages": 47,
+        "basis": "listed"
+      },
+      {
+        "chapter": 96,
+        "title": "JJL Chapter 96",
+        "revision": 1305999,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 97,
+        "title": "JJL Chapter 97",
+        "revision": 1306025,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 98,
+        "title": "JJL Chapter 98",
+        "revision": 1305464,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 99,
+        "title": "JJL Chapter 99",
+        "revision": 1322902,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 100,
+        "title": "JJL Chapter 100",
+        "revision": 1264731,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 101,
+        "title": "JJL Chapter 101",
+        "revision": 1264732,
+        "pages": 31,
+        "basis": "listed"
+      },
+      {
+        "chapter": 102,
+        "title": "JJL Chapter 102",
+        "revision": 1264733,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 103,
+        "title": "JJL Chapter 103",
+        "revision": 1264735,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 104,
+        "title": "JJL Chapter 104",
+        "revision": 1264734,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 105,
+        "title": "JJL Chapter 105",
+        "revision": 1264736,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 106,
+        "title": "JJL Chapter 106",
+        "revision": 1264737,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 107,
+        "title": "JJL Chapter 107",
+        "revision": 1298375,
+        "pages": 49,
+        "basis": "listed"
+      },
+      {
+        "chapter": 108,
+        "title": "JJL Chapter 108",
+        "revision": 1297659,
+        "pages": 49,
+        "basis": "listed"
+      },
+      {
+        "chapter": 109,
+        "title": "JJL Chapter 109",
+        "revision": 1264730,
+        "pages": 47,
+        "basis": "listed"
+      },
+      {
+        "chapter": 110,
+        "title": "JJL Chapter 110",
+        "revision": 1322904,
+        "pages": 51,
+        "basis": "listed"
+      }
+    ],
+    "9": [
+      {
+        "chapter": 1,
+        "title": "TJL Chapter 1",
+        "revision": 1306539,
+        "pages": 69,
+        "basis": "listed"
+      },
+      {
+        "chapter": 2,
+        "title": "TJL Chapter 2",
+        "revision": 1230416,
+        "pages": 51,
+        "basis": "listed"
+      },
+      {
+        "chapter": 3,
+        "title": "TJL Chapter 3",
+        "revision": 1313389,
+        "pages": 43,
+        "basis": "listed"
+      },
+      {
+        "chapter": 4,
+        "title": "TJL Chapter 4",
+        "revision": 1230418,
+        "pages": 43,
+        "basis": "listed"
+      },
+      {
+        "chapter": 5,
+        "title": "TJL Chapter 5",
+        "revision": 1230419,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 6,
+        "title": "TJL Chapter 6",
+        "revision": 1337746,
+        "pages": 35,
+        "basis": "listed"
+      },
+      {
+        "chapter": 7,
+        "title": "TJL Chapter 7",
+        "revision": 1337751,
+        "pages": 47,
+        "basis": "listed"
+      },
+      {
+        "chapter": 8,
+        "title": "TJL Chapter 8",
+        "revision": 1337840,
+        "pages": 39,
+        "basis": "listed"
+      },
+      {
+        "chapter": 9,
+        "title": "TJL Chapter 9",
+        "revision": 1230423,
+        "pages": 43,
+        "basis": "listed"
+      },
+      {
+        "chapter": 10,
+        "title": "TJL Chapter 10",
+        "revision": 1230424,
+        "pages": 49,
+        "basis": "listed"
+      },
+      {
+        "chapter": 11,
+        "title": "TJL Chapter 11",
+        "revision": 1230425,
+        "pages": 51,
+        "basis": "listed"
+      },
+      {
+        "chapter": 12,
+        "title": "TJL Chapter 12",
+        "revision": 1337844,
+        "pages": 37,
+        "basis": "listed"
+      },
+      {
+        "chapter": 13,
+        "title": "TJL Chapter 13",
+        "revision": 1337839,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 14,
+        "title": "TJL Chapter 14",
+        "revision": 1337810,
+        "pages": 41,
+        "basis": "listed"
+      },
+      {
+        "chapter": 15,
+        "title": "TJL Chapter 15",
+        "revision": 1340684,
+        "pages": 41,
+        "basis": "listed"
+      },
+      {
+        "chapter": 16,
+        "title": "TJL Chapter 16",
+        "revision": 1230430,
+        "pages": 43,
+        "basis": "listed"
+      },
+      {
+        "chapter": 17,
+        "title": "TJL Chapter 17",
+        "revision": 1343980,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 18,
+        "title": "TJL Chapter 18",
+        "revision": 1255382,
+        "pages": 41,
+        "basis": "listed"
+      },
+      {
+        "chapter": 19,
+        "title": "TJL Chapter 19",
+        "revision": 1337800,
+        "pages": 41,
+        "basis": "listed"
+      },
+      {
+        "chapter": 20,
+        "title": "TJL Chapter 20",
+        "revision": 1310006,
+        "pages": 43,
+        "basis": "listed"
+      },
+      {
+        "chapter": 21,
+        "title": "TJL Chapter 21",
+        "revision": 1337735,
+        "pages": 43,
+        "basis": "listed"
+      },
+      {
+        "chapter": 22,
+        "title": "TJL Chapter 22",
+        "revision": 1310010,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 23,
+        "title": "TJL Chapter 23",
+        "revision": 1338667,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 24,
+        "title": "TJL Chapter 24",
+        "revision": 1325202,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 25,
+        "title": "TJL Chapter 25",
+        "revision": 1325203,
+        "pages": 31,
+        "basis": "listed"
+      },
+      {
+        "chapter": 26,
+        "title": "TJL Chapter 26",
+        "revision": 1325204,
+        "pages": 43,
+        "basis": "listed"
+      },
+      {
+        "chapter": 27,
+        "title": "TJL Chapter 27",
+        "revision": 1325205,
+        "pages": 35,
+        "basis": "listed"
+      },
+      {
+        "chapter": 28,
+        "title": "TJL Chapter 28",
+        "revision": 1337774,
+        "pages": 43,
+        "basis": "listed"
+      },
+      {
+        "chapter": 29,
+        "title": "TJL Chapter 29",
+        "revision": 1330117,
+        "pages": 43,
+        "basis": "listed"
+      },
+      {
+        "chapter": 30,
+        "title": "TJL Chapter 30",
+        "revision": 1330118,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 31,
+        "title": "TJL Chapter 31",
+        "revision": 1330119,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 32,
+        "title": "TJL Chapter 32",
+        "revision": 1337805,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 33,
+        "title": "TJL Chapter 33",
+        "revision": 1337736,
+        "pages": 43,
+        "basis": "listed"
+      },
+      {
+        "chapter": 34,
+        "title": "TJL Chapter 34",
+        "revision": 1330361,
+        "pages": 41,
+        "basis": "listed"
+      },
+      {
+        "chapter": 35,
+        "title": "TJL Chapter 35",
+        "revision": 1344029,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 36,
+        "title": "TJL Chapter 36",
+        "revision": 1330101,
+        "pages": 43,
+        "basis": "listed"
+      },
+      {
+        "chapter": 37,
+        "title": "TJL Chapter 37",
+        "revision": 1313410,
+        "pages": 43,
+        "basis": "listed"
+      },
+      {
+        "chapter": 38,
+        "title": "TJL Chapter 38",
+        "revision": 1344028,
+        "pages": 38,
+        "basis": "listed"
+      },
+      {
+        "chapter": 39,
+        "title": "TJL Chapter 39",
+        "revision": 1340195,
+        "pages": 33,
+        "basis": "listed"
+      },
+      {
+        "chapter": 40,
+        "title": "TJL Chapter 40",
+        "revision": 1344024,
+        "pages": 45,
+        "basis": "listed"
+      },
+      {
+        "chapter": 41,
+        "title": "TJL Chapter 41",
+        "revision": 1344132,
+        "pages": 25,
+        "basis": "listed"
+      }
+    ]
+  }
+}

@@ -1,3 +1,5 @@
+import { CHAPTER_PAGE_COUNTS } from './page-counts.ts';
+
 export interface Part {
   id: number;
   title: string;
@@ -53,28 +55,36 @@ export const releaseFor = (state: State, part: Part): Release => state.releases[
 export const clamp = (n: number, total: number) => Math.min(Math.max(0, Math.trunc(Number.isFinite(n) ? n : 0)), total);
 export const percent = (current: number, total: number) => total > 0 ? Math.round(current / total * 100) : 0;
 
-// Rough reading-length assumptions, not verified bibliographic page counts.
-// Users can replace these with the page total for their edition.
-function estimatedPagesThrough(part: Part, chapters: number): number {
-  if (part.id === 7) return Math.min(chapters, 23) * 20 + Math.max(0, chapters - 23) * 40;
-  return chapters * (part.id <= 6 ? 20 : 40);
+// Sum the sourced lengths at chapter boundaries. Only chapters beyond the
+// bundled dataset use a forecast: the rounded mean of the last six chapters.
+function pagesThrough(part: Part, chapters: number): number {
+  const known = CHAPTER_PAGE_COUNTS[part.id];
+  const recent = known.slice(-6);
+  const forecast = Math.round(recent.reduce((sum, pages) => sum + pages, 0) / recent.length);
+  return known.slice(0, chapters).reduce((sum, pages) => sum + pages, 0)
+    + Math.max(0, chapters - known.length) * forecast;
 }
 export function mangaPagesFor(state: State, part: Part, readChapters = progressFor(state, part.id).manga) {
   const chapters = releaseFor(state, part).chapters;
   const custom = state.mangaPages?.[part.id];
-  const scale = custom ? custom.total / estimatedPagesThrough(part, custom.chapters) : 1;
+  const scale = custom ? custom.total / pagesThrough(part, custom.chapters) : 1;
+  const read = clamp(readChapters, chapters);
   return {
-    total: Math.round(estimatedPagesThrough(part, chapters) * scale),
-    read: Math.round(estimatedPagesThrough(part, clamp(readChapters, chapters)) * scale),
+    total: Math.round(pagesThrough(part, chapters) * scale),
+    read: Math.round(pagesThrough(part, read) * scale),
     custom: !!custom,
+    sourcedChapters: Math.min(chapters, CHAPTER_PAGE_COUNTS[part.id].length),
+    estimated: !!custom || chapters > CHAPTER_PAGE_COUNTS[part.id].length,
+    readEstimated: !!custom || read > CHAPTER_PAGE_COUNTS[part.id].length,
   };
 }
 
 export function mangaPageTotals(state: State) {
   return PARTS.reduce((sum, part) => {
     const pages = mangaPagesFor(state, part);
-    return { read: sum.read + pages.read, total: sum.total + pages.total };
-  }, { read: 0, total: 0 });
+    return { read: sum.read + pages.read, total: sum.total + pages.total,
+      estimated: sum.estimated || pages.estimated, readEstimated: sum.readEstimated || pages.readEstimated };
+  }, { read: 0, total: 0, estimated: false, readEstimated: false });
 }
 
 export function journeyCompletion(state: State, medium: Medium = 'both'): number {

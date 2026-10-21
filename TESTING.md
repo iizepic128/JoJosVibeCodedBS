@@ -4,9 +4,9 @@
 
 The replacement emblems now use transparent monochrome outline masks so their ink color, tilt, and sizing match the other seven parts. Part 2 follows the supplied pendant reference: shield-shaped stone, central cross, suspension ring, and symmetrical side settings. Part 3 retains its cap/chain/star motif.
 
-The emblems were checked in the rebuilt standalone HTML in Chromium at 1440, 390, and 320 pixels wide, in both library cards and part dialogs. Both embedded PNG masks decoded and inherited the card ink color without external requests, horizontal overflow, or JavaScript errors. Desktop and phone screenshots were visually reviewed. The production build and all 15 model tests passed again. Native Opera remains untested in this environment.
+The emblems were checked in the rebuilt standalone HTML in Chromium at 1440, 390, and 320 pixels wide, in both library cards and part dialogs. Both embedded PNG masks decoded and inherited the card ink color without external requests, horizontal overflow, or JavaScript errors. Desktop and phone screenshots were visually reviewed. The production build and all 17 model tests passed again. Native Opera remains untested in this environment.
 
-The current production bundle passed **25 UI scenarios** and all **15 model tests**. The UI suite covers the new page-weighted progress, SBR chapter 23/24 boundary, editable totals, reset/undo, reload, backups, monthly growth without auto-reading, and phone catalog validation. No unexpected JavaScript exceptions occurred. The TypeScript check and Vite production build passed. The separate original desktop/mobile smoke script passed before this update; the current full UI suite covers those workflows.
+The current production bundle passed **26 UI scenarios** and all **17 model tests**. The UI suite covers sourced page-weighted progress, SBR chapter 23/24 lengths, editable totals, reset/undo, reload, backups, monthly growth without auto-reading, sourced-versus-forecast labels, and phone catalog validation. Model tests also verify every runtime count against the saved provenance for all 998 chapter entries. No unexpected JavaScript exceptions occurred. The TypeScript check and Vite production build passed. The separate original desktop/mobile smoke script passed before this update; the current full UI suite covers those workflows.
 
 ## Fixes made during the audit
 
@@ -26,7 +26,7 @@ The current production bundle passed **25 UI scenarios** and all **15 model test
 | Personal progress | Both steppers, minimum/maximum bounds, invalid input rejection, completion/caught-up actions, notes, favorite toggles, undo, cancel, and reload persistence |
 | Library | All format/status filters, search by title/protagonist/location, keyboard search shortcut, clear search, empty states, and all three sort modes |
 | Catalog | All 27 release-count fields, editable page totals, invalid chapter coverage, missing-anime validation, progress clamping, undo, cancel, page-total reset and bounds, and part-to-catalog navigation |
-| Manga page weights | Different weekly/monthly SBR weights, weighted franchise completion, custom totals retained across reload and backups, stable read estimates after a new monthly chapter, and mobile editing |
+| Manga page weights | Individually sourced SBR chapter lengths, weighted franchise completion, custom totals retained across reload and backups, stable read estimates after a new monthly chapter, and mobile editing |
 | Adaptation | Coverage rendering, lower-bound explanation, partial coverage near 100%, and catalog edit links |
 | Release schedule | All opening buttons, both automatic-update toggles, counts, dates, Friday validation, monthly day, cancel/save, paused periods, resume behavior, timer-driven updates, and idempotent catch-up |
 | Backups and storage | File chooser, malformed/oversized files, confirmation/cancel, export-current, import/undo, downloaded JSON contents, corrupt-save recovery, and storage-write failure with backup recovery |
@@ -65,6 +65,8 @@ A clean extracted project successfully installed its locked dependencies, built,
 
 The same 23 UI scenarios were rerun against the portable production HTML over HTTP. Direct `file:` navigation is blocked by this environment's administrator policy, so local-file opening could not be tested here. Opera is not installed, and the official Opera download host was blocked by the network proxy. Chromium tests provide engine compatibility evidence, but native Opera, Opera GX, and the Windows/macOS launcher files were not executed in this Linux environment. Manual Opera instructions are included as a fallback to the launchers.
 
-## Reference availability
+## Reference availability and data scope
 
-JoJo Wiki and VIZ requests still returned proxy-level HTTP 403 responses after the reported network-setting updates. No verified real page-count dataset was retrieved. The UI labels the fallback page model as estimated; custom edition totals are editable. The Part 2 emblem was corrected using the user-supplied pendant image.
+JoJo Wiki and VIZ became accessible with HTTP 200 responses after the network settings changed. Chapter page counts were retrieved from JoJo Wiki’s chapter infoboxes through its public API on October 20, 2026. The dataset covers all 998 baseline catalog chapters. Explicit Volume counts take precedence over Magazine counts. Source titles and revision IDs are saved in `data/manga-page-sources.json`; `data/README.md` records per-part sums and source discrepancies.
+
+Future scheduled chapters beyond the dataset still use labeled forecasts. Custom edition totals proportionally scale sourced lengths and are marked as estimates. The verification checks the app’s calculations and agreement with its cited source records; it does not certify every printed edition or live release announcement. The corrected Part 2 emblem follows the user-supplied pendant image.

@@ -1,3 +1,5 @@
+import { readFileSync } from 'node:fs';
+import { CHAPTER_PAGE_COUNTS } from './page-counts.ts';
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { PARTS, completion, freshState, nextScheduledDate, progressFor, releaseFor, statusFor, syncSchedules, updateProgress, validateImport, validDate, mangaPagesFor, mangaPageTotals, journeyCompletion } from './model.ts';
@@ -90,23 +92,23 @@ test('malformed backups are rejected without mutating the existing state', () =>
   assert.throws(() => validateImport(badCoverage), /Invalid release/);
 });
 
-test('SBR changes page weights after weekly chapter 23', () => {
+test('SBR uses individually sourced lengths across its publication change', () => {
   const s = freshState(), sbr = PARTS[6];
-  assert.equal(mangaPagesFor(s, sbr, 22).read, 440);
-  assert.equal(mangaPagesFor(s, sbr, 23).read, 460);
-  assert.equal(mangaPagesFor(s, sbr, 24).read, 500);
-  assert.equal(mangaPagesFor(s, sbr, 95).total, 3340);
-  assert.equal(completion(updateProgress(s, sbr, 'manga', 23), sbr, 'manga'), 14);
-  assert.equal(mangaPagesFor(s, PARTS[0], 1).read, 20);
-  assert.equal(mangaPagesFor(s, PARTS[7], 1).read, 40);
+  assert.equal(mangaPagesFor(s, sbr, 22).read, 716);
+  assert.equal(mangaPagesFor(s, sbr, 23).read, 753);
+  assert.equal(mangaPagesFor(s, sbr, 24).read, 776);
+  assert.equal(mangaPagesFor(s, sbr, 95).total, 4367);
+  assert.equal(completion(updateProgress(s, sbr, 'manga', 23), sbr, 'manga'), 17);
+  assert.equal(mangaPagesFor(s, PARTS[0], 1).read, 31);
+  assert.equal(mangaPagesFor(s, PARTS[7], 1).read, 43);
 });
 
 test('overall manga weights pages across parts and combines formats equally', () => {
   let s = updateProgress(freshState(), PARTS[0], 'manga', 44);
-  assert.deepEqual(mangaPageTotals(s), { read: 880, total: 24420 });
-  assert.equal(journeyCompletion(s, 'manga'), 4);
+  assert.deepEqual(mangaPageTotals(s), { read: 860, total: 25434, estimated: false, readEstimated: false });
+  assert.equal(journeyCompletion(s, 'manga'), 3);
   const longPart = updateProgress(freshState(), PARTS[7], 'manga', 110);
-  assert.equal(journeyCompletion(longPart, 'manga'), 18);
+  assert.equal(journeyCompletion(longPart, 'manga'), 19);
   for (const part of PARTS) s = updateProgress(s, part, 'anime', part.episodes);
   assert.equal(journeyCompletion(s, 'anime'), 100);
   assert.equal(journeyCompletion(s), 52);
@@ -116,25 +118,25 @@ test('overall manga weights pages across parts and combines formats equally', ()
 
 test('custom totals preserve SBR phase weights and migrate through backups', () => {
   let s = updateProgress(freshState(), PARTS[6], 'manga', 23);
-  s.mangaPages = { 7: { total: 6680, chapters: 95 } };
-  assert.equal(mangaPagesFor(s, PARTS[6]).read, 920);
+  s.mangaPages = { 7: { total: 8734, chapters: 95 } };
+  assert.equal(mangaPagesFor(s, PARTS[6]).read, 1506);
   s = updateProgress(s, PARTS[6], 'manga', 24);
-  assert.equal(mangaPagesFor(s, PARTS[6]).read, 1000);
-  assert.equal(mangaPagesFor(s, PARTS[6]).total, 6680);
+  assert.equal(mangaPagesFor(s, PARTS[6]).read, 1552);
+  assert.equal(mangaPagesFor(s, PARTS[6]).total, 8734);
   assert.deepEqual(validateImport(JSON.parse(JSON.stringify(s))), s);
   const legacy = freshState();
   assert.deepEqual(validateImport(legacy), legacy);
-  assert.equal(mangaPagesFor(validateImport(legacy), PARTS[6]).total, 3340);
+  assert.equal(mangaPagesFor(validateImport(legacy), PARTS[6]).total, 4367);
 });
 
 test('scheduled chapters grow custom page estimates without advancing reading', () => {
   const s = updateProgress(freshState(), PARTS[8], 'manga', 41);
   s.mangaPages = { 9: { total: 1230, chapters: 41 } };
   const next = syncSchedules(s, '2026-11-19').state;
-  assert.equal(mangaPagesFor(next, PARTS[8]).total, 1260);
+  assert.equal(mangaPagesFor(next, PARTS[8]).total, 1257);
   assert.equal(mangaPagesFor(next, PARTS[8]).read, 1230);
   assert.deepEqual(next.mangaPages, s.mangaPages);
-  assert.equal(mangaPagesFor(syncSchedules(next, '2026-11-19').state, PARTS[8]).total, 1260);
+  assert.equal(mangaPagesFor(syncSchedules(next, '2026-11-19').state, PARTS[8]).total, 1257);
   next.releases[9] = { episodes: 0, chapters: 0, adapted: 0 };
   assert.equal(mangaPagesFor(next, PARTS[8]).read, 0);
   assert.equal(mangaPagesFor(next, PARTS[8]).total, 0);
@@ -148,6 +150,43 @@ test('page totals reject malformed data and empty catalogs stay finite', () => {
   }
   const s = freshState();
   for (const part of PARTS) s.releases[part.id] = { episodes: 0, chapters: 0, adapted: 0 };
-  assert.deepEqual(mangaPageTotals(s), { read: 0, total: 0 });
+  assert.deepEqual(mangaPageTotals(s), { read: 0, total: 0, estimated: false, readEstimated: false });
   assert.equal(journeyCompletion(s), 0);
+});
+
+
+test('all 998 sourced chapter lengths agree with their saved provenance', () => {
+  const source = JSON.parse(readFileSync(new URL('../data/manga-page-sources.json', import.meta.url), 'utf8'));
+  let chapters = 0;
+  for (const part of PARTS) {
+    const rows = source.parts[part.id];
+    assert.equal(rows.length, part.chapters);
+    assert.deepEqual(CHAPTER_PAGE_COUNTS[part.id], rows.map((row: { pages: number }) => row.pages));
+    rows.forEach((row: { chapter: number; pages: number; revision: number }, index: number) => {
+      assert.equal(row.chapter, index + 1);
+      assert.ok(Number.isInteger(row.revision) && row.revision > 0);
+      assert.ok(Number.isInteger(row.pages) && row.pages > 0);
+    });
+    chapters += rows.length;
+  }
+  assert.equal(chapters, 998);
+  assert.equal(CHAPTER_PAGE_COUNTS[1][18], 18); // Volume value; magazine lists 19.
+  assert.equal(CHAPTER_PAGE_COUNTS[7][0], 53);
+  assert.equal(CHAPTER_PAGE_COUNTS[7][23], 23);
+  assert.equal(CHAPTER_PAGE_COUNTS[7][24], 65);
+});
+
+test('only unsourced future chapters add forecast pages; known reading stays exact', () => {
+  const s = updateProgress(freshState(), PARTS[8], 'manga', 41);
+  assert.equal(mangaPagesFor(s, PARTS[8]).estimated, false);
+  const next = syncSchedules(s, '2026-11-19').state;
+  const pages = mangaPagesFor(next, PARTS[8]);
+  assert.equal(pages.read, 1756);
+  assert.equal(pages.total, 1794);
+  assert.equal(pages.sourcedChapters, 41);
+  assert.equal(pages.estimated, true);
+  assert.equal(pages.readEstimated, false);
+  const readNew = updateProgress(next, PARTS[8], 'manga', 42);
+  assert.equal(mangaPagesFor(readNew, PARTS[8]).readEstimated, true);
+  assert.equal(mangaPagesFor(readNew, PARTS[8]).read, 1794);
 });
