@@ -124,7 +124,7 @@ class UIAudit(unittest.TestCase):
         d.get_by_role('button',name='Save progress',exact=True).click()
         self.assertEqual(self.saved()['progress']['1']['favorite'],False)
         expect(self.card('Phantom Blood').locator('.status')).to_have_text('Completed')
-        self.card('Phantom Blood').get_by_role('button',name='Edit progress',exact=True).click()
+        self.card('Phantom Blood').get_by_role('button',name='Edit Phantom Blood progress',exact=True).click()
         expect(self.dialog().get_by_label('Your notes',exact=False)).to_have_value('My test note\n<script>literal, not executable</script>')
         self.dialog().get_by_label('Chapters read',exact=True).fill('1')
         self.page.keyboard.press('Escape')
@@ -139,18 +139,43 @@ class UIAudit(unittest.TestCase):
     def test_format_switch_and_quick_logging_respect_selected_medium(self):
         self.format('Manga')
         expect(self.page.locator('.card-progress .progress-label').first).to_contain_text('Manga')
-        self.card('Phantom Blood').get_by_role('button',name='Log chapter',exact=True).click()
+        self.card('Phantom Blood').get_by_role('button',name='+1 chapter',exact=True).click()
         self.assertEqual(self.saved()['progress']['1']['manga'],1)
         self.format('Anime')
-        self.card('Phantom Blood').get_by_role('button',name='Log episode',exact=True).click()
+        self.card('Phantom Blood').get_by_role('button',name='+1 episode',exact=True).click()
         self.assertEqual(self.saved()['progress']['1']['anime'],1)
         # Anime-only mode must never offer to log a manga chapter.
-        expect(self.card('JoJolion').get_by_role('button',name='Log chapter',exact=True)).to_have_count(0)
+        expect(self.card('JoJolion').get_by_role('button',name='+1 chapter',exact=True)).to_have_count(0)
         self.card('JoJolion').locator('.quick-add').click()
         expect(self.dialog()).to_be_visible()
         self.close()
         self.format('All formats')
-        expect(self.card('JoJolion').get_by_role('button',name='Log chapter',exact=True)).to_be_visible()
+        expect(self.card('JoJolion').get_by_role('button',name='+1 chapter',exact=True)).to_be_visible()
+
+    def test_dedicated_buttons_log_each_format_and_stop_at_release_total(self):
+        for title in TITLES:
+            card = self.card(title)
+            expect(card.get_by_role('button', name='+1 chapter', exact=True)).to_be_visible()
+            expect(card.get_by_role('button', name='+1 episode', exact=True)).to_have_count(1 if title in TITLES[:7] else 0)
+        self.page.set_viewport_size({'width':390,'height':844})
+        card = self.card('Phantom Blood')
+        card.get_by_role('button', name='+1 chapter', exact=True).click()
+        card.get_by_role('button', name='+1 episode', exact=True).click()
+        self.assertEqual(self.saved()['progress']['1']['manga'], 1)
+        self.assertEqual(self.saved()['progress']['1']['anime'], 1)
+        self.page.reload(wait_until='networkidle')
+        self.assertEqual(self.saved()['progress']['1']['manga'], 1)
+        self.assertEqual(self.saved()['progress']['1']['anime'], 1)
+        self.assertTrue(self.page.evaluate('document.documentElement.scrollWidth <= innerWidth'))
+        state = copy.deepcopy(BASE)
+        state['progress']['1'] = {'anime':8,'manga':43,'favorite':True,'notes':'Keep me'}
+        self.seed(state)
+        card.get_by_role('button', name='+1 episode', exact=True).click()
+        expect(card.get_by_role('button', name='+1 episode', exact=True)).to_be_disabled()
+        expect(card.get_by_role('button', name='+1 chapter', exact=True)).to_be_enabled()
+        card.get_by_role('button', name='+1 chapter', exact=True).click()
+        expect(card.get_by_role('button', name='+1 chapter', exact=True)).to_be_disabled()
+        self.assertEqual(self.saved()['progress']['1'], {'anime':9,'manga':44,'favorite':True,'notes':'Keep me'})
 
     def test_filters_favorites_and_empty_states(self):
         self.button('Favorites 0').click()
@@ -163,7 +188,7 @@ class UIAudit(unittest.TestCase):
         self.card('Phantom Blood').get_by_role('button',name='Unfavorite Phantom Blood',exact=True).click()
         expect(self.page.locator('.empty-state')).to_be_visible()
         self.button('My library').click()
-        self.card('Battle Tendency').get_by_role('button',name='Log episode',exact=True).click()
+        self.card('Battle Tendency').get_by_role('button',name='+1 episode',exact=True).click()
         self.button('In progress').click()
         expect(self.page.locator('.part-card')).to_have_count(1)
         expect(self.page.locator('.part-card h3')).to_have_text('Battle Tendency')
@@ -191,7 +216,7 @@ class UIAudit(unittest.TestCase):
         expect(self.page.locator('.part-card')).to_have_count(1)
 
     def test_sort_control(self):
-        self.card('Battle Tendency').get_by_role('button',name='Log episode',exact=True).click()
+        self.card('Battle Tendency').get_by_role('button',name='+1 episode',exact=True).click()
         self.page.get_by_role('combobox',name='Sort parts').select_option('most')
         expect(self.page.locator('.part-card h3').first).to_have_text('Battle Tendency')
         self.page.get_by_role('combobox',name='Sort parts').select_option('least')
@@ -255,7 +280,7 @@ class UIAudit(unittest.TestCase):
         expect(sbr.locator('.manga-page-caption')).to_contain_text('1,506 / 8,734')
         self.assertEqual(self.saved()['mangaPages']['7'],{'total':8734,'chapters':95})
         self.assertEqual(self.saved()['progress']['7']['manga'],23)
-        sbr.get_by_role('button',name='Log chapter',exact=True).click()
+        sbr.get_by_role('button',name='+1 chapter',exact=True).click()
         expect(sbr.locator('.manga-page-caption')).to_contain_text('1,552 / 8,734')
         self.page.reload(wait_until='networkidle')
         expect(self.card('Steel Ball Run').locator('.manga-page-caption')).to_contain_text('1,552 / 8,734')
@@ -306,7 +331,7 @@ class UIAudit(unittest.TestCase):
         self.page.reload(wait_until='networkidle')
         expect(caption).to_have_text('1,756 / 1,794 pages · includes estimates')
         expect(self.page.locator('.stat-label').filter(has_text='Manga pages read')).to_have_text('Manga pages read · includes estimates')
-        self.card('The JOJOLands').get_by_role('button',name='Log chapter',exact=True).click()
+        self.card('The JOJOLands').get_by_role('button',name='+1 chapter',exact=True).click()
         expect(caption).to_have_text('≈1,794 / 1,794 pages · includes estimates')
 
     def test_uncataloged_progress_links_to_catalog(self):
@@ -316,7 +341,7 @@ class UIAudit(unittest.TestCase):
         self.dialog().get_by_label('JoJolion episodes',exact=True).fill('1')
         self.dialog().get_by_role('button',name='Update catalog',exact=True).click()
         self.format('Anime')
-        expect(self.card('JoJolion').get_by_role('button',name='Log episode',exact=True)).to_be_visible()
+        expect(self.card('JoJolion').get_by_role('button',name='+1 episode',exact=True)).to_be_visible()
 
     def test_adaptation_rounding_does_not_claim_completion(self):
         s=copy.deepcopy(BASE);s['releases']['7']={'episodes':6,'chapters':1000,'adapted':999}
@@ -493,7 +518,7 @@ class UIAudit(unittest.TestCase):
         expect(self.page.get_by_role('progressbar',name='Overall personal journey',exact=True)).to_have_attribute('aria-valuenow','0')
         self.button('Start your journey').click()
         expect(self.page.locator('h1')).to_contain_text('A collection of adventures')
-        self.card('Phantom Blood').get_by_role('button',name='Edit progress',exact=True).click()
+        self.card('Phantom Blood').get_by_role('button',name='Edit Phantom Blood progress',exact=True).click()
         self.dialog().get_by_role('button',name='Set release count',exact=True).first.click()
         expect(self.dialog()).to_have_attribute('aria-label','Release catalog')
         self.close()
@@ -518,7 +543,7 @@ class UIAudit(unittest.TestCase):
         self.page.evaluate('(key)=>localStorage.setItem(key,"{corrupt")',KEY)
         self.page.reload(wait_until='networkidle')
         expect(self.page.get_by_role('alert')).to_contain_text('original save is preserved')
-        self.card('Phantom Blood').get_by_role('button',name='Log episode',exact=True).click()
+        self.card('Phantom Blood').get_by_role('button',name='+1 episode',exact=True).click()
         self.assertEqual(self.page.evaluate('(key)=>localStorage.getItem(key)',KEY),'{corrupt')
         with self.page.expect_download() as download:
             self.page.get_by_role('alert').get_by_role('button',name='Export backup',exact=True).click()
@@ -527,14 +552,14 @@ class UIAudit(unittest.TestCase):
         self.page.locator('input[type=file]').set_input_files({'name':'recovered.json','mimeType':'application/json','buffer':recovery})
         self.dialog().get_by_role('button',name='Import backup',exact=True).click()
         expect(self.page.get_by_role('alert')).to_have_count(0)
-        self.card('Phantom Blood').get_by_role('button',name='Log episode',exact=True).click()
+        self.card('Phantom Blood').get_by_role('button',name='+1 episode',exact=True).click()
         self.assertEqual(self.saved()['progress']['1']['anime'],2)
         self.page.reload(wait_until='networkidle')
         self.assertEqual(self.saved()['progress']['1']['anime'],2)
 
     def test_storage_failure_still_allows_backup(self):
         self.page.evaluate("() => { Storage.prototype.setItem = function(){ throw new DOMException('Full', 'QuotaExceededError') }; }")
-        self.card('Phantom Blood').get_by_role('button',name='Log episode',exact=True).click()
+        self.card('Phantom Blood').get_by_role('button',name='+1 episode',exact=True).click()
         expect(self.page.get_by_role('alert')).to_contain_text('could not save')
         with self.page.expect_download() as download:
             self.page.get_by_role('alert').get_by_role('button',name='Export backup',exact=True).click()

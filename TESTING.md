@@ -6,7 +6,11 @@ The replacement emblems now use transparent monochrome outline masks so their in
 
 The emblems were checked in the rebuilt standalone HTML in Chromium at 1440, 390, and 320 pixels wide, in both library cards and part dialogs. Both embedded PNG masks decoded and inherited the card ink color without external requests, horizontal overflow, or JavaScript errors. Desktop and phone screenshots were visually reviewed. The production build and all 17 model tests passed again. Native Opera remains untested in this environment.
 
-The current production bundle passed **26 UI scenarios** and all **17 model tests**. The UI suite covers sourced page-weighted progress, SBR chapter 23/24 lengths, editable totals, reset/undo, reload, backups, monthly growth without auto-reading, sourced-versus-forecast labels, and phone catalog validation. Model tests also verify every runtime count against the saved provenance for all 998 chapter entries. No unexpected JavaScript exceptions occurred. The TypeScript check and Vite production build passed. The separate original desktop/mobile smoke script passed before this update; the current full UI suite covers those workflows.
+The current production bundle passed **27 UI scenarios** and all **17 model tests**. The UI suite covers sourced page-weighted progress, SBR chapter 23/24 lengths, editable totals, reset/undo, reload, backups, monthly growth without auto-reading, sourced-versus-forecast labels, and phone catalog validation. Model tests also verify every runtime count against the saved provenance for all 998 chapter entries. No unexpected JavaScript exceptions occurred. The TypeScript check and Vite production build passed. The separate original desktop/mobile smoke script passed before this update; the current full UI suite covers those workflows.
+
+## Dedicated progress buttons
+
+All formats now shows separate +1 episode and +1 chapter buttons for parts with cataloged anime, and a chapter button for manga-only parts. Format filters show their matching action. Buttons disable independently at released totals; editing, favorites, notes, undo, and saved progress remain available. Browser coverage checks all nine parts, independent increments, reload persistence, completion limits, and preservation of notes and favorites. Card layouts were checked at 1440, 390, and 320 pixels wide.
 
 ## Fixes made during the audit
 

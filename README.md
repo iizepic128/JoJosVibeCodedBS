@@ -30,7 +30,7 @@ For development with automatic updates, run `npm run dev` after the first setup.
 
 ## Features
 
-- Nine illustrated part cards with independent anime and manga progress, quick logging, notes, favorites, and undo.
+- Nine illustrated part cards with independent anime and manga progress, dedicated +1 episode and +1 chapter buttons, notes, favorites, and undo.
 - Manga completion weighted by sourced chapter pages, including Steel Ball Run’s changing chapter lengths and editable page totals per part.
 - A visual timeline showing story eras and publication order across the original and alternate continuities.
 - Overview totals, per-format completion, searching, status filters, and sorting by publication order or progress.
@@ -78,7 +78,7 @@ python tests/browser_smoke.py
 python tests/ui_audit.py
 ```
 
-The smoke checks cover editing, undo, notes, favorites, filtering, adaptation, persistence, date advancement, schedule pause/resume, backups, mobile layout, and corrupt storage recovery. The full UI audit runs 26 isolated scenarios covering every navigation route, all 45 part-opening controls, format-specific actions, sorting, all 27 catalog fields, keyboard focus and Escape handling, phone backup actions, empty/completed libraries, storage-failure recovery, editable page totals, page-count backup data, monthly page growth, and phone page-total controls. Each scenario uses a clean profile and a fixed clock. External reference links are tested with controlled destination responses; availability of the actual external services is not asserted.
+The smoke checks cover editing, undo, notes, favorites, filtering, adaptation, persistence, date advancement, schedule pause/resume, backups, mobile layout, and corrupt storage recovery. The full UI audit runs 27 isolated scenarios covering every navigation route, all 45 part-opening controls, format-specific actions, sorting, all 27 catalog fields, keyboard focus and Escape handling, phone backup actions, empty/completed libraries, storage-failure recovery, editable page totals, page-count backup data, monthly page growth, and phone page-total controls. Each scenario uses a clean profile and a fixed clock. External reference links are tested with controlled destination responses; availability of the actual external services is not asserted.
 
 To test a production preview on a different port, set `JOJO_TEST_URL`, for example `JOJO_TEST_URL=http://127.0.0.1:5175 python tests/ui_audit.py`.
 
